@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiahao Huo"
-description              : " "
+description              : "Undergraduate Student majoring in Data Science"
 repository               : "Z1zs/z1zs.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,11 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiahao Huo"
-  avatar           : "images/ano.png"
+  avatar           : "images/anno.png"
   location         : "Shanghai, China"
   googlescholar    : "https://scholar.google.com/citations?user=SJQZDGUAAAAJ"
   email            : "jiahaohuotj@gmail.com"
-  github           : "https://github.com/Z1zs"# e.g., "github username"
+  github           : "https://github.com/Z1zs"
   openreview       : "https://openreview.net/profile?id=~Jiahao_Huo2"
 
 
