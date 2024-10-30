@@ -17,9 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm an undergraduate student in Tongji University. My undergraduate advisor is Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). I'm also an intern at HKUST(GZ) under the guidance of Dr. [Xuming Hu](https://xuminghu.github.io/). It was an honor for me to have worked with [Weize Liu](https://aclanthology.org/people/w/weize-liu/), [Yibo Yan](https://stupidbuluchacha.github.io/) and [Wen Shen](https://ada-shen.github.io/).
-
-My research interest includes multimodal and explainable AI. I'm also interested in topics like generative AI, machine unlearning and visualization.
+I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Professor Zhihua Wei. Currently, I am an intern at HKUST (Guangzhou) under the mentorship of Dr. Xuming Hu. I am honored to have collaborated with distinguished researchers such as Weize Liu, Yibo Yan, and Wen Shen.  
+My research interests lie at the intersection of multimodal and explainable AI, with an additional focus on generative models, machine unlearning, and differential privacy. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization.
 
 
 # 🔥 News
