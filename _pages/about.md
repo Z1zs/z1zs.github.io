@@ -29,7 +29,7 @@ My research interest includes multimodal and explainable AI. I'm also interested
 - *2024.06*: &nbsp;🎉🎉 One paper sumbitted to EMNLP 2024!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MINER: Mining the Underlying Pattern of Modality-Specific Neurons in Multimodal Large Language Models]([https://arxiv.org/abs/2410.04819])
