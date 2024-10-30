@@ -32,11 +32,11 @@ My research interest includes multimodal and explainable AI. I'm also interested
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MINER: Mining the Underlying Pattern of Modality-Specific Neurons in Multimodal Large Language Models]([https://arxiv.org/abs/2410.04819])
+[MINER: Mining the Underlying Pattern of Modality-Specific Neurons in Multimodal Large Language Models](https://arxiv.org/abs/2410.04819)
 
 Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 
-[**Project**]([https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:u-x6o8ySG0sC]) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u-x6o8ySG0sC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:u-x6o8ySG0sC) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u-x6o8ySG0sC'></span></strong>
 - A transferable framework for mining modality-specific neurons (MSNs) in MLLMs.
 </div>
 </div>
@@ -44,11 +44,11 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection]([https://arxiv.org/abs/2406.11193])
+[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](https://arxiv.org/abs/2406.11193)
 
 **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
 
-[**Project**]([https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:d1gkVwhDpl0C]) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:d1gkVwhDpl0C'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:d1gkVwhDpl0C) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:d1gkVwhDpl0C'></span></strong>
 -  The first benchmark designed to assess MLLMs' capabilities in error detection.
 </div>
 </div>
@@ -57,11 +57,11 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 main</div><img src='images/mmneuron.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model]([https://arxiv.org/abs/2406.11193])
+[MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model](https://arxiv.org/abs/2406.11193)
 
 **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
 
-[**Project**]([https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:u5HHmVD_uO8C]) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u5HHmVD_uO8C'></span></strong>
+[**Project**](https://github.com/Z1zs/MMNeuron) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u5HHmVD_uO8C'></span></strong>
 - Investigating the distribution of domain-specific neurons and the mechanism of how MLLMs process features from diverse domains.
 </div>
 </div>
