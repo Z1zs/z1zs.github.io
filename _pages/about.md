@@ -29,7 +29,7 @@ My research interest includes multimodal and explainable AI. I'm also interested
 - *2024.06*: &nbsp;🎉🎉 One paper sumbitted to EMNLP 2024!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MINER: Mining the Underlying Pattern of Modality-Specific Neurons in Multimodal Large Language Models]([https://arxiv.org/abs/2410.04819])
@@ -41,7 +41,7 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection]([https://arxiv.org/abs/2406.11193])
@@ -54,7 +54,7 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 main</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 main</div><img src='images/mmneuron.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model]([https://arxiv.org/abs/2406.11193])
@@ -71,4 +71,5 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 - *2021.09 - present*, Undergraduate Student, Tongji University. 
 
 # 💻 Internships
+- *2024.10 - present*, Visiting Student, Technical University of Munich.
 - *2024.02 - 2024.10*, Intern, HKUST(GZ).
