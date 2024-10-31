@@ -57,6 +57,9 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi
 <div class='paper-box-text' markdown="1">
 
 [MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model](https://arxiv.org/abs/2406.11193)
+<a href="docs/MMNeuron_final.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+<a href="docs/MMNeuron_poster.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+<a href="docs/MMNeuron_Slides.pptx" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
 
 **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
 
