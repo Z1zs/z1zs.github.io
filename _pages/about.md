@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Professor Zhihua Wei. Currently, I am an intern at HKUST (Guangzhou) under the mentorship of Dr. Xuming Hu. I am honored to have collaborated with distinguished researchers such as Weize Liu, Yibo Yan, and Wen Shen.  
+I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). Currently, I am an intern at HKUST (Guangzhou) under the mentorship of Dr. [Xuming Hu](https://xuminghu.github.io/). I am honored to have collaborated with distinguished researchers such as [Weize Liu](https://aclanthology.org/people/w/weize-liu/), [Yibo Yan](https://stupidbuluchacha.github.io/), and [Wen Shen](https://ada-shen.github.io/).  
 My research interests lie at the intersection of multimodal and explainable AI, with an additional focus on generative models, machine unlearning, and differential privacy. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization.
 
 
@@ -43,9 +43,9 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](https://arxiv.org/abs/2406.11193)
+[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](https://arxiv.org/abs/2410.04509)
 
-**Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
+Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi-Fan Zhang, Tianlong Xu, Zhendong Chu, Aoxiao Zhong, Kun Wang, Hui Xiong, Philip S. Yu, Xuming Hu, Qingsong Wen
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:d1gkVwhDpl0C) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:d1gkVwhDpl0C'></span></strong>
 -  The first benchmark designed to assess MLLMs' capabilities in error detection.
