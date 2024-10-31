@@ -56,7 +56,7 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 main</div><img src='images/mmneuron.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model](https://arxiv.org/abs/2406.11193)[[pdf]](docs/MMNeuron_final.pdf)[[poster]](MMNeuron_poster.pdf)[[slides]](MMNeuron_Slides.pptx)
+[MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model](https://arxiv.org/abs/2406.11193)
 
 **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
 
