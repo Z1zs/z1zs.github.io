@@ -25,7 +25,7 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 - *2024.10*: &nbsp;🎉🎉 Two paper submitted to ICLR 2025!
 - *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
 - *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP 2024!
-- *2024.06*: &nbsp;🎉🎉 One paper sumbitted to EMNLP 2024!
+- *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP 2024!
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.png' alt="sym" width="100%"></div></div>
