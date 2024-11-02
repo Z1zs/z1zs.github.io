@@ -35,7 +35,7 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:u-x6o8ySG0sC) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u-x6o8ySG0sC'></span></strong>
+[**Project**](https://github.com/huang-kc/MINER) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u-x6o8ySG0sC'></span></strong>
 - A transferable framework for mining modality-specific neurons (MSNs) in MLLMs.
 </div>
 </div>
