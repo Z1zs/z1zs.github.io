@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). Currently, I am an intern at HKUST (Guangzhou) under the mentorship of Dr. [Xuming Hu](https://xuminghu.github.io/). I am honored to have collaborated with distinguished researchers such as [Weize Liu](https://aclanthology.org/people/w/weize-liu/), [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/) and [Wen Shen](https://ada-shen.github.io/).  
+I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). Since February 2024, I have been an intern at HKUST (Guangzhou) under the mentorship of Dr. [Xuming Hu](https://xuminghu.github.io/). Currently I'm studying at TUM School of Computation, Information and Technology (CIT) in Technical University of Munich (TUM) as an exchange student. I am honored to have collaborated with distinguished researchers such as [Weize Liu](https://aclanthology.org/people/w/weize-liu/), [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/) and [Wen Shen](https://ada-shen.github.io/).  
 My research interests lie at the intersection of multimodal and explainable AI, with an additional focus on generative models, machine unlearning, and differential privacy. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization.
 
 
