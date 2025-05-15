@@ -22,14 +22,14 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 One paper accepted by ACL2025 Findings, cheers!
-- *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL 2025!
+- *2025.05*: &nbsp;🎉🎉 Two paper accepted by ACL'25 Findings, one paper accepted by ACL'25 (Industry) Oral!
+- *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL'25.
 - *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
-- *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP 2024!
-- *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP 2024!
+- *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP'24!
+- *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP'24.
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/mmunlearner.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL'25 Findings</div><img src='images/mmunlearner.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models](https://arxiv.org/abs/2502.11051)
@@ -56,7 +56,7 @@ Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'25 Workshop</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](https://arxiv.org/abs/2410.04509)
@@ -69,7 +69,7 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 main</div><img src='images/mmneuron.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 main</div><img src='images/mmneuron.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model](https://arxiv.org/abs/2406.11193)
@@ -86,5 +86,6 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi
 - *2021.09 - present*, Undergraduate Student, Tongji University. 
 
 # 💻 Internships
-- *2024.10 - present*, Visiting Student, Technical University of Munich.
+- *2025.05 - present*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
+- *2024.10 - 2025.03*, Visiting Student, Technical University of Munich.
 - *2024.02 - 2024.10*, Intern, HKUST(GZ).
