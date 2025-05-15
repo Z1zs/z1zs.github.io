@@ -22,8 +22,8 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 One paper accepted by ACL2025 Findings!
-- *2025.02*: &nbsp;🎉🎉 One paper submitted to ARR Feb!
+- *2025.05*: &nbsp;🎉🎉 One paper accepted by ACL2025 Findings, cheers!
+- *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL 2025!
 - *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
 - *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP 2024!
 - *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP 2024!
