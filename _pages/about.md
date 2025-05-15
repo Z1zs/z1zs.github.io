@@ -22,12 +22,28 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 One paper accepted by ACL2025 Findings!
 - *2025.02*: &nbsp;🎉🎉 One paper submitted to ARR Feb!
 - *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
 - *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP 2024!
 - *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP 2024!
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/mmunlearner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models](https://arxiv.org/abs/2502.11051)
+
+<u>**Jiahao Huo**</u>, <u>Yibo Yan</u>, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu
+
+[**Project**] <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:zYLM7Y9cAGgC'></span></strong>
+- Reformulate the task of multimodal MU in the era of MLLMs.  
+- Aims to erase only the visual patterns associated with a given entity while preserving the corresponding textual knowledge encoded within the original parameters of the language model backbone.  
+- Develop a novel geometry-constrained gradient ascent method MMUnlearner.  
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
