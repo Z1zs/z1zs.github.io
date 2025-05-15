@@ -29,7 +29,7 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 - *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP 2024!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/mmunlearner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/mmunlearner.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models](https://arxiv.org/abs/2502.11051)
