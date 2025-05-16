@@ -43,19 +43,6 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/miner.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MINER: Mining the Underlying Pattern of Modality-Specific Neurons in Multimodal Large Language Models](https://arxiv.org/abs/2410.04819)
-
-Kaichen Huang, **Jiahao Huo**, Yibo Yan, Kun Wang, Yutao Yue, Xuming Hu
-
-[**Project**](https://github.com/huang-kc/MINER) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:u-x6o8ySG0sC'></span></strong>
-- A transferable framework for mining modality-specific neurons (MSNs) in MLLMs.
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'25 Workshop</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
