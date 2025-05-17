@@ -36,22 +36,23 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 **<u>Jiahao Huo</u>**, <u>Yibo Yan</u>, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu
 
-[**Project**] <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:zYLM7Y9cAGgC'></span></strong>
+[**Project**](https://arxiv.org/abs/2502.11051) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:zYLM7Y9cAGgC'></span></strong>
 - Reformulate the task of multimodal MU in the era of MLLMs.  
 - Aims to erase only the visual patterns associated with a given entity while preserving the corresponding textual knowledge encoded within the original parameters of the language model backbone.  
 - Develop a novel geometry-constrained gradient ascent method MMUnlearner.  
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'25 Workshop</div><img src='images/ErrorRadar.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL'25 (Industry) Oral</div><img src='images/math_agent.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ErrorRadar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models Via Error Detection](https://arxiv.org/abs/2410.04509)
+[MathAgent: Leveraging a Mixture-of-Math-Agent Framework for Real-World Multimodal Mathematical Error Detection](https://arxiv.org/abs/2503.18132)
 
-Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi-Fan Zhang, Tianlong Xu, Zhendong Chu, Aoxiao Zhong, Kun Wang, Hui Xiong, Philip S. Yu, Xuming Hu, Qingsong Wen
+Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SJQZDGUAAAAJ&authuser=1&citation_for_view=SJQZDGUAAAAJ:d1gkVwhDpl0C) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:d1gkVwhDpl0C'></span></strong>
--  The first benchmark designed to assess MLLMs' capabilities in error detection.
+[**Project**](https://arxiv.org/abs/2503.18132) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:d1gkVwhDpl0C'></span></strong>
+- Decomposes error detection into three phases
+- Each phase handled by a specialized agent: an image-text consistency validator, a visual semantic interpreter, and an integrative error analyzer.
 </div>
 </div>
 
