@@ -36,7 +36,7 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 **<u>Jiahao Huo</u>**, <u>Yibo Yan</u>, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu
 
-[**Project**](https://arxiv.org/abs/2502.11051) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:zYLM7Y9cAGgC'></span></strong>
+[**Project**](https://github.com/Z1zs/MMUnlearner) <strong><span class='show_paper_citations' data='SJQZDGUAAAAJ:zYLM7Y9cAGgC'></span></strong>
 - Reformulate the task of multimodal MU in the era of MLLMs.  
 - Aims to erase only the visual patterns associated with a given entity while preserving the corresponding textual knowledge encoded within the original parameters of the language model backbone.  
 - Develop a novel geometry-constrained gradient ascent method MMUnlearner.  
