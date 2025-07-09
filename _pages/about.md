@@ -71,9 +71,10 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 
 
 # 📖 Educations
-- *2021.09 - present*, Undergraduate Student, Tongji University. 
+- *2021.09 - 2025.07*, Undergraduate Student, Tongji University.
 
 # 💻 Internships
-- *2025.05 - present*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
+- *2025.06 - present*, Intern, Alibaba Group
+- *2025.05 - 2025.07*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
 - *2024.10 - 2025.03*, Visiting Student, Technical University of Munich.
 - *2024.02 - 2024.10*, Intern, HKUST(GZ).
