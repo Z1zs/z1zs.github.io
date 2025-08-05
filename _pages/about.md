@@ -22,6 +22,7 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 Code of [MMUnlearner](https://github.com/Z1zs/MMUnlearner) released.
 - *2025.05*: &nbsp;🎉🎉 Two paper accepted by ACL'25 Findings, one paper accepted by ACL'25 (Industry) Oral!
 - *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL'25.
 - *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
