@@ -30,6 +30,19 @@ My research interests lie at the intersection of multimodal and explainable AI, 
 - *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP'24.
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pmark.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints](https://arxiv.org/abs/2509.21057v1)
+
+Jiahao Huo, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
+
+[**Project**](https://github.com/PMark-repo/PMark) <strong><span class='show_paper_citations' data=''></span></strong>
+- Novel and unified theoretical framework on semantic-level watermarking.
+- Distortion-free and robust semantic-level watermarking for LLMs.  
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL'25 Findings</div><img src='images/mmunlearner.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
