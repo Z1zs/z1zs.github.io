@@ -92,3 +92,12 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 - *2025.05 - 2025.07*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
 - *2024.10 - 2025.03*, Visiting Student, Technical University of Munich.
 - *2024.02 - 2024.10*, Intern, HKUST(GZ).
+
+<div id="footer">
+	<div id="footer-text"></div>
+</div>
+	<p><center>
+      	<div id="clustrmaps-widget" style="width:40%">
+      		<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=4fykOuVtnBEnF7VIJx6TBXO-Fdf1QTv0V1C3_NPRx6E&cl=ffffff&w=a"></script>
+      		<noscript><a href="https://mapmyvisitors.com/web/1c0g8" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=4fykOuVtnBEnF7VIJx6TBXO-Fdf1QTv0V1C3_NPRx6E&cl=ffffff"></a></noscript>
+</div>
