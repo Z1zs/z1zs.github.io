@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a senior undergraduate student in Data Science at Tongji University, where I have the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). Since February 2024, I have been an intern at HKUST (Guangzhou) under the mentorship of Dr. [Xuming Hu](https://xuminghu.github.io/). I am honored to have collaborated with distinguished researchers such as [Weize Liu](https://aclanthology.org/people/w/weize-liu/), [Yibo Yan](https://stupidbuluchacha.github.io/) and [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/).  
-My research interests lie at the intersection of multimodal and explainable AI, with an additional focus on generative models, machine unlearning, and differential privacy. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization.
+I am currently a MPhil student at HKUST(GZ) under the mentorship of Prof. [Xuming Hu](https://xuminghu.github.io/). I'm also collaborating with Prof. [Mingxun Zhou](https://wuwuz.github.io/) at HKUST on AI governance. Before that I received my B.S. degree in Data Science at Tongji University, where I had the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). I am honored to have collaborated with distinguished researchers such as [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/) and [Na Min An](https://namin-an.github.io/).  
+My research interests lie at the intersection of multimodal and trustworthy AI, with an additional focus on generative models, semantic watermarking, and interpretability. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization. 
 
 
 # 🔥 News
@@ -86,9 +86,13 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 
 # 📖 Educations
 - *2021.09 - 2025.07*, Undergraduate Student, Tongji University.
+- *2024.10 - 2025.03*, Exchange Student, Technical University of Munich.
+- *2025.10 - present*, MPhil Student, HKUST(GZ).
 
 # 💻 Internships
-- *2025.06 - present*, Intern, Alibaba Group
+- *2025.06 - 2025.09*, Intern, Alibaba Group
 - *2025.05 - 2025.07*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
-- *2024.10 - 2025.03*, Visiting Student, Technical University of Munich.
 - *2024.02 - 2024.10*, Intern, HKUST(GZ).
+
+# 📝 Services
+- Conferences: ACL(2025 SRW, 2026), ICLR(LLM Reason and Plan Workshop)
