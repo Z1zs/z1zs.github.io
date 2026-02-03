@@ -130,7 +130,7 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 **Alibaba Group** | *Hangzhou, China*  
 *Research Intern* | `2025.06 - 2025.09`  | <u>Mentor:</u> Dr. [Chengfei Lv](https://openreview.net/profile?id=%7Echengfei_lv1)
 
-**Institute for Advanced Algorithms Research (IRRA)** | *Shanghai, China*  
+**MemTensor** | *Shanghai, China*  
 *Visiting Student* | `2025.05 - 2025.07` | <u>Mentor:</u> Dr. [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2)
 
 # 📝 Services
