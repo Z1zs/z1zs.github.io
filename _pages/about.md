@@ -17,21 +17,34 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a MPhil student at HKUST(GZ) under the mentorship of Prof. [Xuming Hu](https://xuminghu.github.io/). I'm also collaborating with Prof. [Mingxun Zhou](https://wuwuz.github.io/) at HKUST on AI governance. Before that I received my B.S. degree in Data Science at Tongji University, where I had the privilege of being advised by Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm). I am honored to have collaborated with distinguished researchers such as [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/) and [Na Min An](https://namin-an.github.io/).  
-My research interests lie at the intersection of multimodal and trustworthy AI, with an additional focus on generative models, semantic watermarking, and interpretability. Beyond my research, I am also deeply passionate about mathematics, programming, and data visualization. 
+I am currently an MPhil student at **HKUST(GZ)**, where I am advised by Prof. [Xuming Hu](https://xuminghu.github.io/). Concurrently, I am fortunate to conduct research on **AI Governance** under the guidance of Prof. [Mingxun Zhou](https://wuwuz.github.io/) at HKUST. Previously, I obtained my B.S. in Data Science from **Tongji University**, under the supervision of Prof. [Zhihua Wei](https://see.tongji.edu.cn/info/1379/10345.htm).
+  
+My research interests lie at the intersection of **Multimodal Learning** and **Trustworthy AI**, with a specific focus on generative models, model watermarking, and interpretability. Beyond research, I am deeply passionate about mathematics, programming, and data visualization. Previously I also have the privilege of collaborating with distinguished researchers, including [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/), and [Na Min An](https://namin-an.github.io/).
+  
+> **📢 I am actively seeking academic collaborations! If you are interested in my research, please feel free to reach out at jiahaohuotj@gmail.com.**
 
 
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 One paper submitted to ICML'26.
-- *2026.01*: &nbsp;🎉🎉 One paper accepted by ICLR'26!
-- *2025.09*: &nbsp;🎉🎉 Code of [PMark](https://github.com/PMark-repo/PMark) released.
-- *2025.09*: &nbsp;🎉🎉 One paper submitted to ICLR'26.
-- *2025.06*: &nbsp;🎉🎉 Code of [MMUnlearner](https://github.com/Z1zs/MMUnlearner) released.
-- *2025.05*: &nbsp;🎉🎉 Two paper accepted by ACL'25 Findings, one paper accepted by ACL'25 (Industry) Oral!
-- *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL'25.
-- *2024.09*: &nbsp;🎉🎉 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
-- *2024.09*: &nbsp;🎉🎉 One paper accepted by EMNLP'24!
-- *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP'24.
+
+## 2026
+
+* **2026.01**: 🏆 One paper accepted by **ICLR'26**!
+* **2026.01**: 📝 One paper submitted to **ICML'26**.
+
+## 2025
+
+* **2025.09**: 🚀 Code of [PMark](https://github.com/PMark-repo/PMark) released.
+* **2025.09**: 📝 One paper submitted to **ICLR'26**.
+* **2025.07**: 🤝 Glad to contribute to [MemOS](https://github.com/MemTensor/MemOS) (GitHub 4.6k Stars)!
+* **2025.06**: 🚀 Code of [MMUnlearner](https://github.com/Z1zs/MMUnlearner) released.
+* **2025.05**: 🏆 **Two papers** accepted by **ACL'25 Findings**; **One paper** accepted by **ACL'25 (Industry) Oral**!
+* **2025.02**: 📝 One paper submitted to **ACL'25**.
+
+## 2024
+
+* **2024.09**: 🚀 Code of [MMNeuron](https://github.com/Z1zs/MMNeuron) released.
+* **2024.09**: 🏆 One paper accepted by **EMNLP'24**!
+* **2024.06**: 📝 One paper submitted to **EMNLP'24**.
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/causalembed.jpg' alt="sym" width="100%"></div></div>
@@ -102,14 +115,31 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 
 
 # 📖 Educations
-- *2021.09 - 2025.07*, Undergraduate Student, Tongji University.
-- *2024.10 - 2025.03*, Exchange Student, Technical University of Munich.
 - *2025.10 - present*, MPhil Student, HKUST(GZ).
+- *2024.10 - 2025.03*, Exchange Student, Technical University of Munich.
+- *2021.09 - 2025.07*, Undergraduate Student, Tongji University.
 
 # 💻 Internships
-- *2025.06 - 2025.09*, Intern, Alibaba Group
-- *2025.05 - 2025.07*, Visiting Student, Institute for Advanced Algorithms Research (IRRA), Shanghai
-- *2024.02 - 2024.10*, Intern, HKUST(GZ).
+
+**University of Illinois Chicago** | *Chicago, USA*  
+*Visiting Student* | `2026.02 - Present`
+
+> **Supervisor:** Prof. [Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/)
+
+**Alibaba Cloud Computing** | *Hangzhou, China*  
+*Remote Intern* | `2026.02 - Present`
+
+> **Mentor:** Dr. [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en)
+
+**Alibaba Group** | *Hangzhou, China*  
+*Research Intern* | `2025.06 - 2025.09`
+
+> **Mentor:** Dr. [Chengfei Lv](https://openreview.net/profile?id=%7Echengfei_lv1)
+
+**Institute for Advanced Algorithms Research (IRRA)** | *Shanghai, China*  
+*Visiting Student* | `2025.05 - 2025.07`
+
+> **Mentor:** Dr. [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2)
 
 # 📝 Services
 - Conferences: ACL(2025 SRW, 2026), ICLR(LLM Reason and Plan Workshop)
