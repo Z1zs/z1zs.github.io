@@ -22,6 +22,10 @@ My research interests lie at the intersection of multimodal and trustworthy AI, 
 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 One paper submitted to ICML'26.
+- *2026.01*: &nbsp;🎉🎉 One paper accepted by ICLR'26!
+- *2025.09*: &nbsp;🎉🎉 Code of [PMark](https://github.com/PMark-repo/PMark) released.
+- *2025.09*: &nbsp;🎉🎉 One paper submitted to ICLR'26.
 - *2025.06*: &nbsp;🎉🎉 Code of [MMUnlearner](https://github.com/Z1zs/MMUnlearner) released.
 - *2025.05*: &nbsp;🎉🎉 Two paper accepted by ACL'25 Findings, one paper accepted by ACL'25 (Industry) Oral!
 - *2025.02*: &nbsp;🎉🎉 One paper submitted to ACL'25.
@@ -30,12 +34,25 @@ My research interests lie at the intersection of multimodal and trustworthy AI, 
 - *2024.06*: &nbsp;🎉🎉 One paper submitted to EMNLP'24.
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/causalembed.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding](https://arxiv.org/abs/2601.21262)
+
+**Jiahao Huo**, Yu Huang, Yibo Yan, Ye Pan, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu
+
+[**Project**](https://github.com/Z1zs/Causal-Embed) <strong><span class='show_paper_citations' data=''></span></strong>
+- Auto-regressive embedding generation for multi-vector visual document retrieval.
+- 30-155x reduction in token count and test-time sclaing for retrieval performance. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pmark.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints](https://arxiv.org/abs/2509.21057v1)
 
-Jiahao Huo, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
+**Jiahao Huo**, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
 
 [**Project**](https://github.com/PMark-repo/PMark) <strong><span class='show_paper_citations' data=''></span></strong>
 - Novel and unified theoretical framework on semantic-level watermarking.
