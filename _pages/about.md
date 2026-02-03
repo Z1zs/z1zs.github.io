@@ -122,24 +122,20 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 # 💻 Internships
 
 **University of Illinois Chicago** | *Chicago, USA*  
-*Visiting Student* | `2026.02 - Present`
-
-> **Supervisor:** Prof. [Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/)
+*Visiting Student* | `2026.02 - Present`  
+> <u>Supervisor</u>: Prof. [Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/)
 
 **Alibaba Cloud Computing** | *Hangzhou, China*  
-*Remote Intern* | `2026.02 - Present`
-
-> **Mentor:** Dr. [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en)
+*Remote Intern* | `2026.02 - Present`  
+> <u>Mentor:</u> Dr. [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en)
 
 **Alibaba Group** | *Hangzhou, China*  
-*Research Intern* | `2025.06 - 2025.09`
-
-> **Mentor:** Dr. [Chengfei Lv](https://openreview.net/profile?id=%7Echengfei_lv1)
+*Research Intern* | `2025.06 - 2025.09`  
+> <u>Mentor:</u> Dr. [Chengfei Lv](https://openreview.net/profile?id=%7Echengfei_lv1)
 
 **Institute for Advanced Algorithms Research (IRRA)** | *Shanghai, China*  
-*Visiting Student* | `2025.05 - 2025.07`
-
-> **Mentor:** Dr. [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2)
+*Visiting Student* | `2025.05 - 2025.07`  
+> <u>Mentor:</u> Dr. [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2)
 
 # 📝 Services
 - Conferences: ACL(2025 SRW, 2026), ICLR(LLM Reason and Plan Workshop)
