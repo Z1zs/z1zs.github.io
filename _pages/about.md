@@ -60,7 +60,7 @@ My research interests lie at the intersection of **Multimodal Learning** and **T
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pmark.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'26</div><img src='images/pmark.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints](https://arxiv.org/abs/2509.21057v1)
