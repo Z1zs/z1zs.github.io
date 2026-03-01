@@ -135,4 +135,4 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wenpng
 *Visiting Student* | `2025.05 - 2025.07` | <u>Mentor:</u> Dr. [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2)
 
 # 📝 Services
-- Conferences: ACL(2025 SRW, 2026), ICLR(LLM Reason and Plan Workshop)
+- Conference Reviewer: ICLR 2025, ACL 2025/2026, ICML 2026, SIGIR 2026
