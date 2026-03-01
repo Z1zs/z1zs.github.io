@@ -27,7 +27,8 @@ My research interests lie at the intersection of **Multimodal Learning** and **T
 # 🔥 News
 
 ## 2026
-
+* **2026.02**: 🚀 Code of [CausalEmbed](https://github.com/Z1zs/Causal-Embed) released.
+* **2026.02**: 🌎 Arriving in Chicago as visting student, advised by Prof. [Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/).
 * **2026.01**: 🏆 One paper accepted by **ICLR'26**!
 * **2026.01**: 📝 One paper submitted to **ICML'26**.
 
