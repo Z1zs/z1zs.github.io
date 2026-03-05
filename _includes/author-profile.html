@@ -37,11 +37,14 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
-      {% if author.steam %}
-        <li><a href="https://steamcommunity.com/profiles/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
+      {% if author.linkedin %}
+        <li><a href="https://linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if author.steam %}
+        <li><a href="https://steamcommunity.com/profiles/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
     </ul>
       <div class="author__urls_sm">
@@ -57,11 +60,14 @@
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.steam %}
-        <a href="https://steamcommunity.com/profiles/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i></a>
+      {% if author.linkedin %}
+        <a href="https://linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
+      {% endif %}
+      {% if author.steam %}
+        <a href="https://steamcommunity.com/profiles/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i></a>
       {% endif %}
     </div>
   </div>
