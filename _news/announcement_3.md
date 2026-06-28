@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-04-01 09:00:00+0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Started as a Core Developer at the Institute for Advanced Algorithms Research, building an open-source memory management system for LLM-based agents.

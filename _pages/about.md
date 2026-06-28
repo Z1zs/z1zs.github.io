@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Large language models, multimodal learning, agent memory, and trustworthy AI.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Shanghai, China</p>
+    <p><a href="mailto:jiahaohuotj@gmail.com">jiahaohuotj@gmail.com</a></p>
+    <p><a href="https://scholar.google.com/citations?user=SJQZDGUAAAAJ">Google Scholar</a> | <a href="https://github.com/Z1zs">GitHub</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Jiahao Huo, a data science graduate from Tongji University. My research focuses on large language models and multimodal systems, especially post-training, visual-document representation learning, agent memory, model watermarking, and machine unlearning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have worked as a research intern at Alibaba Cloud Computing, Alibaba Group, HKUST, and Squirrel AI Learning, and as a core developer at the Institute for Advanced Algorithms Research. My recent work studies auto-regressive multimodal embedding models for visual documents, robust and distortion-free LLM watermarking, agentic memory management, and multimodal reasoning for education.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I was an exchange student at the Technical University of Munich, School of Computation, Information and Technology. I am broadly interested in building reliable AI systems that can reason over long contexts, preserve useful memories, and remain robust under distribution shifts and adversarial transformations.
+
+My selected publications and projects are listed below. A full CV is available on the [CV page]({{ '/cv/' | relative_url }}), and the full publication list is available on the [publications page]({{ '/publications/' | relative_url }}).

@@ -1,189 +1,216 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Jiahao Huo
+  label: Data Science | Large Language Models and Multimodal AI
+  email: jiahaohuotj@gmail.com
+  phone: "+86 13076433544"
+  location: Shanghai, China
+  image: assets/img/prof_pic.jpg
+  summary: >
+    Data science graduate from Tongji University working on large language models,
+    post-training, multimodal learning, agent memory, and model watermarking.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: Z1zs
+    - network: Google Scholar
+      username: SJQZDGUAAAAJ
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Technical University of Munich
+        location: Munich, Germany
+        area: School of Computation, Information and Technology
+        studyType: Exchange Student
+        start_date: "2024-10"
+        end_date: "2025-04"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Tongji University
+        location: Shanghai, China
+        area: Data Science
+        studyType: B.S.
+        start_date: "2021-09"
+        end_date: "2025-07"
+        score: "GPA: 91.65/100"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Alibaba Cloud Computing
+        position: Research Intern
+        location: Computer Science and Engineering
+        start_date: "2026-02"
+        end_date: "2026-06"
+        summary: "Advisor: Mingdong Ou"
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed and optimized auto-regressive multimodal embedding models for visual-document representation learning.
+          - Studied training-dynamics differences between generative multimodal models and representation-oriented multimodal models.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Alibaba Group
+        position: Machine Learning Engineer Intern
+        location: Pixel Lab
+        start_date: "2025-06"
+        end_date: "2025-09"
+        summary: "Mentor: Chengfei Lyu"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Applied LLMs to large-scale codebase understanding, addressing context-window limitations in long-document and repository-level analysis.
+          - Built domain-specific LLM capabilities for e-commerce scenarios via continued pre-training and model merging.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Institute for Advanced Algorithms Research
+        position: Core Developer
+        location: MemTensor (Shanghai) Technology Co., Ltd.
+        start_date: "2025-04"
+        end_date: "2025-06"
+        summary: "Advisor: Zhiyu Li"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed an open-source agentic memory management system for LLM-based agents and personalized AI assistants.
+          - Improved compatibility with major LLM frameworks and protocols, including Ollama, Transformers, vLLM, and MCP.
+          - Benchmarked system performance against competing memory-layer products such as Mem0 and Zep Cloud.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: The Hong Kong University of Science and Technology
+        position: Research Intern
+        location: Computer Science and Engineering
+        start_date: "2024-02"
+        end_date: "2025-09"
+        summary: "Advisors: Xuming Hu and Mingxun Zhou"
+        highlights:
+          - Designed LLM watermarking methods with distortion-free generation and robustness guarantees under semantic-level attacks.
+          - Developed reasoning-based methods for multimodal representation learning and visual-document embedding.
+          - Studied cross-modality mechanisms in multimodal models through neuron-level and knowledge-circuit analysis.
+          - Developed multimodal unlearning methods for MLLMs that erase target visual knowledge while preserving unrelated capabilities.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Squirrel AI Learning
+        position: Research Intern
+        location: AI for Education
+        start_date: "2024-09"
+        end_date: "2025-04"
+        summary: "Advisor: Shen Wang"
+        highlights:
+          - Improved multimodal large language models for mathematical problem solving in real-world education scenarios.
+          - Built agent-based workflows for multimodal error detection in exam questions and learning materials.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Jiahao Huo
+          - Wenjie Qu
+          - Yibo Yan
+          - Kening Zheng
+          - Jiaheng Zhang
+          - Xuming Hu
+          - Philip S. Yu
+          - Mingxun Zhou
+        publisher: Under Review
+        releaseDate: "2026"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Jiahao Huo
+          - Yu Huang
+          - Yibo Yan
+          - Ye Pan
+          - Yi Cao
+          - Mingdong Ou
+          - Philip S. Yu
+          - Xuming Hu
+        publisher: Under Review
+        releaseDate: "2026"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Jiahao Huo
+          - Shuliang Liu
+          - Bin Wang
+          - Junyan Zhang
+          - Yibo Yan
+          - Aiwei Liu
+          - Xuming Hu
+          - Mingxun Zhou
+        publisher: ICLR 2026
+        releaseDate: "2026"
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models"
+        authors:
+          - Jiahao Huo
+          - Yibo Yan
+          - Xu Zheng
+          - Yuanhuiyi Lyu
+          - Xin Zou
+          - Zhihua Wei
+          - Xuming Hu
+        publisher: ACL 2025 Findings
+        releaseDate: "2025"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: "MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model"
+        authors:
+          - Jiahao Huo
+          - Yibo Yan
+          - Boren Hu
+          - Yutao Yue
+          - Xuming Hu
+        publisher: EMNLP 2024
+        releaseDate: "2024"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "MemoryOS: Open-Source Memory Operating System for LLM-Based Agents"
+        summary: >
+          An intelligent memory layer for AI assistants and agents that supports
+          personalized interaction and long-term context management.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Integrated with popular LLM frameworks and agent protocols, including Ollama, OpenAI, vLLM, and MCP.
+          - Supported multimodal memory across text, images, videos, and audio for agentic applications.
+          - Reached 10K GitHub stars according to the CV.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Multimodal Error Detection via Agent-Driven Toolkit in Mathematical Problem Solving"
+        summary: >
+          A Mixture-of-Math-Agent framework for multimodal error detection and
+          dynamic routing of image/text mathematical reasoning workflows.
+        highlights:
+          - Integrated OCR, symbolic computation, and diagram parsing through MathToolKits.
+          - Reduced API calls by 40% via automated tool debugging and latency-aware scheduling.
+          - Deployed in production with 98% API success rate and 89.3% student satisfaction across 1M+ K-12 users.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Programming
+        level: Professional
+        icon: fa-solid fa-code
+        keywords: "Python, C++, MATLAB, SQL, Markdown"
+
+      - name: ML/LLM Tools
+        level: Professional
+        icon: fa-solid fa-gear
+        keywords: "PyTorch, Transformers, vLLM, Diffusers, Flask, Git, MySQL, Plotly, LaTeX"
+
+      - name: Research Areas
+        level: Research
+        icon: fa-solid fa-brain
+        keywords: "Large Language Models, Post-Training, Multimodal Learning, Agent Memory, Model Watermarking"
+
+      - name: Mathematics
+        level: Coursework
+        icon: fa-solid fa-square-root-variable
+        keywords: "Mathematical Analysis, Advanced Algebra, Stochastic Processes, Game Theory"
+
+    Languages:
+      - name: Chinese
+        summary: Native
+      - name: English
+        summary: TOEFL 102/120
+      - name: Japanese
+        summary: JLPT N4
+      - name: German
+        summary: Beginner
+
+    Awards:
+      - title: Postgraduate Scholarship
+        awarder: Hong Kong University of Science and Technology (Guangzhou)
+        date: "2025-09"
+
+      - title: National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling
+        awarder: Contemporary Undergraduate Mathematical Contest in Modeling
+        date: "2023-09"
+
+      - title: First Prize, Shanghai Region, Chinese Mathematics Competitions
+        awarder: Chinese Mathematics Competitions
+        date: "2022-10"
+
+      - title: Undergraduate Scholarship
+        awarder: Tongji University
+        date: "2022-11"
