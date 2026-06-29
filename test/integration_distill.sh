@@ -10,6 +10,11 @@ cleanup() {
 }
 trap cleanup EXIT
 
+if ruby -e 'require "yaml"; config = YAML.load_file("_config.yml") || {}; excludes = Array(config["exclude"]); exit(excludes.include?("_posts/") || excludes.include?("_posts") ? 0 : 1)'; then
+  echo "distill integration checks skipped because _posts/ is excluded"
+  exit 0
+fi
+
 cat >"${tmp_override}" <<'YAML'
 giscus:
   repo: alshedivat/al-folio
