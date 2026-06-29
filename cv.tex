@@ -1,0 +1,262 @@
+%-----------CS Resume Template---------------------------------------
+%-----------Based on "Jack's Resume" (by Jake Gutierrez, MIT License)
+%-----------Modified by Jiahao Huo-----------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{CJKutf8}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{subfiles}
+\usepackage{subcaption}
+\usepackage{hyperref}
+
+\usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+\setlength{\footskip}{4.1pt}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jiahao Huo} \\ \vspace{6pt}
+    \small +86 13076433544 $|$
+    \href{mailto:jiahaohuotj@gmail.com}{jiahaohuotj@gmail.com} $|$
+    \href{https://z1zs.github.io/}{Homepage} $|$
+    \href{https://scholar.google.com/citations?user=SJQZDGUAAAAJ}{Google Scholar} $|$
+    \href{https://github.com/Z1zs}{GitHub}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  %   \resumeSubheading
+  % {Hong Kong University of Science and Technology (Guangzhou)}
+  % {Sept. 2025 -- Aug. 2026}
+  % {MPhil in Artificial Intelligence \textbf{(Withdrawn)}}
+  % {Guangzhou, China}
+    \resumeSubheading
+      {Technical University of Munich}{Oct. 2024 -- Apr. 2025}
+      {Exchange Student, School of Computation, Information and Technology}{Munich, Germany}
+    \resumeSubheading
+      {Tongji University}{Sept. 2021 -- July 2025}
+      {B.S. in Data Science; GPA: \textbf{91.65}/100}{Shanghai, China}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, C++, MATLAB, SQL, Markdown} \\
+     \textbf{ML/LLM Tools}{: PyTorch, Transformers, vLLM, Diffusers, Flask, Git, MySQL, Plotly, \LaTeX} \\
+     \textbf{Research Areas}{: Large Language Models, Post-Training, Multimodal Learning, Agent Memory, Model Watermarking} \\
+     \textbf{Mathematics}{: Mathematical Analysis, Advanced Algebra, Stochastic Processes, Game Theory} \\
+     \textbf{Languages}{: Chinese (native), English (TOEFL 102/120), Japanese (JLPT N4), German (beginner)}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Research and Industry Experience}
+  \resumeSubHeadingListStart
+    % \resumeSubheading
+    %   {Carnegie Mellon University}{May 2026 -- Present}
+    %   {Student Intern; Advisor: Yiming Yang}{Language Technologies Institute}
+    %   \resumeItemListStart
+    %     \resumeItem{Research post-training methods for memory-enhanced reasoning models, focusing on how external memory affects long-horizon reasoning and model consistency.}
+    %     \resumeItem{Analyze on-policy self-distillation dynamics and training stability for reasoning-oriented LLMs.}
+    %   \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {University of Illinois Chicago}{Feb. 2026 -- June 2026}
+    %   {Student Intern; Advisor: Philip S. Yu}{Computer Science and Engineering}
+    %   \resumeItemListStart
+    %     \resumeItem{Developed and optimized auto-regressive multimodal embedding models for visual-document representation learning.}
+    %     \resumeItem{Studied training-dynamics differences between generative multimodal models and representation-oriented multimodal models.}
+    %   \resumeItemListEnd
+
+    \resumeSubheading
+      {Alibaba Cloud Computing}{Feb. 2026 -- June 2026}
+      {Research Intern; Advisor: Mingdong Ou}{Computer Science and Engineering}
+      \resumeItemListStart
+        \resumeItem{Developed and optimized auto-regressive multimodal embedding models for visual-document representation learning.}
+        \resumeItem{Studied training-dynamics differences between generative multimodal models and representation-oriented multimodal models.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Alibaba Group}{June 2025 -- Sept. 2025}
+      {Machine Learning Engineer Intern; Mentor: Chengfei Lyu}{Pixel Lab}
+      \resumeItemListStart
+        \resumeItem{Applied LLMs to large-scale codebase understanding, addressing context-window limitations in long-document and repository-level analysis.}
+        \resumeItem{Built domain-specific LLM capabilities for e-commerce scenarios via continued pre-training and model merging.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Institute for Advanced Algorithms Research}{Apr. 2025 -- June 2025}
+      {Core Developer; Advisor: Zhiyu Li}{MemTensor (Shanghai) Technology Co., Ltd.}
+      \resumeItemListStart
+        \resumeItem{Developed an open-source agentic memory management system for LLM-based agents and personalized AI assistants.}
+        \resumeItem{Improved compatibility with major LLM frameworks and protocols, including Ollama, Transformers, vLLM, and MCP.}
+        \resumeItem{Benchmarked system performance against competing memory-layer products such as Mem0 and Zep Cloud.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The Hong Kong University of Science and Technology}{Feb. 2024 -- Sept. 2025}
+      {Research Intern; Advisors: Xuming Hu and Mingxun Zhou}{Computer Science and Engineering}
+      \resumeItemListStart
+        \resumeItem{Designed LLM watermarking methods with distortion-free generation and robustness guarantees under semantic-level attacks.}
+        \resumeItem{Developed reasoning-based methods for multimodal representation learning and visual-document embedding.}
+        \resumeItem{Studied cross-modality mechanisms in multimodal models through neuron-level and knowledge-circuit analysis.}
+        \resumeItem{Developed multimodal unlearning methods for MLLMs that erase target visual knowledge while preserving unrelated capabilities.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Squirrel AI Learning}{Sept. 2024 -- Apr. 2025}
+      {Research Intern; Advisor: Shen Wang}{AI for Education}
+      \resumeItemListStart
+        \resumeItem{Improved multimodal large language models for mathematical problem solving in real-world education scenarios.}
+        \resumeItem{Built agent-based workflows for multimodal error detection in exam questions and learning materials.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{MemoryOS: Open-Source Memory Operating System for LLM-Based Agents} \emph{(GitHub 10K Stars)}}{}
+      \resumeItemListStart
+        \resumeItem{Built an intelligent memory layer for AI assistants and agents, supporting personalized interaction and long-term context management.}
+        \resumeItem{Integrated with popular LLM frameworks and agent protocols, including Ollama, OpenAI, vLLM, and MCP.}
+        \resumeItem{Supported multimodal memory across text, images, videos, and audio for agentic applications.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Multimodal Error Detection via Agent-Driven Toolkit in Mathematical Problem Solving} \emph{(ACL 2025 Industry Oral)}}{}
+      \resumeItemListStart
+        \resumeItem{Designed a Mixture-of-Math-Agent framework with three specialized agents for multimodal error detection and dynamic routing of image/text reasoning workflows.}
+        \resumeItem{Developed MathToolKits integrating OCR, symbolic computation, and diagram parsing; reduced API calls by 40\% via automated tool debugging and latency-aware scheduling.}
+        \resumeItem{Deployed the framework in production with 98\% API success rate, 89.3\% student satisfaction across 1M+ K-12 users, and an estimated \$2.1M annual reduction in manual grading costs.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Selected Publications}
+\begin{itemize}[leftmargin=0.15in, itemsep=1pt, parsep=0pt]
+  \small
+  \item \textbf{SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness.} \emph{Under Review}. \\
+  \textbf{Jiahao Huo}, Wenjie Qu, Yibo Yan, Kening Zheng, Jiaheng Zhang, Xuming Hu, Philip S Yu, Mingxun Zhou
+  
+  \item \textbf{CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding.} \emph{Under Review}. \\
+  \textbf{Jiahao Huo}, Yu Huang, Yibo Yan, Ye Pan, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu.
+
+  \item \textbf{PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints.} \emph{ICLR 2026}. \\
+  \textbf{Jiahao Huo}, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou.
+
+  \item \textbf{MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models.} \emph{ACL 2025 Findings}. \\
+  \textbf{Jiahao Huo*}, Yibo Yan*, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu.
+
+  \item \textbf{MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model.} \emph{EMNLP 2024}. \\
+  \textbf{Jiahao Huo}, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu.
+
+  \item \textbf{MathAgent: Leveraging a Mixture-of-Math-Agent Framework for Real-World Multimodal Mathematical Error Detection.} \emph{ACL 2025 Industry Oral}. \\
+  Yibo Yan, Shen Wang, \textbf{Jiahao Huo}, Philip S. Yu, Xuming Hu, Qingsong Wen.
+
+  \item \textbf{Pierce the Mists, Greet the Sky: Decipher Knowledge Overshadowing via Knowledge Circuit Analysis.} \emph{EMNLP 2025}. \\
+  Haoming Huang*, Yibo Yan*, \textbf{Jiahao Huo}, Xin Zou, Xinfeng Li, Kun Wang, Xuming Hu.
+
+
+
+
+\item \textbf{Errorradar: Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models via Error Detection.} \emph{ACL 2026 Findings}. \\
+  Yibo Yan, Shen Wang, \textbf{Jiahao Huo}, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi-Fan Zhang, Tianlong Xu, Zhendong Chu, Aoxiao Zhong, Kun Wang, Hui Xiong, Philip S Yu, Xuming Hu, Qingsong Wen.
+
+  \item \textbf{EssayJudge: A Multi-Granular Benchmark for Assessing Automated Essay Scoring Capabilities of Multimodal Large Language Models.} \emph{ACL 2025 Findings}. \\
+  Jiamin Su*, Yibo Yan*, Fangteng Fu, Han Zhang, Jingheng Ye, Xiang Liu, \textbf{Jiahao Huo}, Huiyu Zhou, Xuming Hu.
+
+  \item \textbf{Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey.} \emph{Preprint}. \\
+  Yunkai Dang*, Kaichen Huang*, \textbf{Jiahao Huo*}, Yibo Yan, Sirui Huang, Dongrui Liu, Mengxi Gao, Jie Zhang, Chen Qian, Kun Wang, Yong Liu, Jing Shao, Hui Xiong, Xuming Hu.
+
+  \item \textbf{MemOS: A Memory OS for AI System.} \emph{Technical Report}. \\
+  Zhiyu Li et al., \textbf{Jiahao Huo}, Tianyi Chen, Kai Chen, Kehang Li, Zhen Tao, Huayi Lai, Hao Wu, Bo Tang, Zhenren Wang, Zhaoxin Fan, Ningyu Zhang, Linfeng Zhang, Junchi Yan, Mingchuan Yang, Tong Xu, Wei Xu, Haofen Wang, Hongkang Yang, Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong.
+
+  \item \textbf{Memory in the age of ai agents.} \emph{Under Review}. \\
+  Yuyang Hu, Shichun Liu, Yanwei Yue, Guibin Zhang et al., \textbf{Jiahao Huo}, Junhao Wang, Yuwei Niu, Yu Wang, Zhenfei Yin, Xiaobin Hu, Yue Liao, Qiankun Li, Kun Wang, Wangchunshu Zhou, Yixin Liu, Dawei Cheng, Qi Zhang, Tao Gui, Shirui Pan, Yan Zhang, Philip Torr, Zhicheng Dou, Ji-Rong Wen, Xuanjing Huang, Yu-Gang Jiang, Shuicheng Yan
+\end{itemize}
+
+%-----------AWARDS-----------
+\section{Awards}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
+  \small
+  \item Postgraduate Scholarship, Hong Kong University of Science and Technology (Guangzhou) \hfill Sept. 2025
+  \item National Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling \hfill Sept. 2023
+  \item First Prize, Shanghai Region, Chinese Mathematics Competitions \hfill Oct. 2022
+  \item Undergraduate Scholarship, Tongji University \hfill Nov. 2022
+\end{itemize}
+
+\end{document}
