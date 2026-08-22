@@ -14,7 +14,7 @@ I am an MPhil student in Artificial Intelligence at the Hong Kong University of 
 
 My research focuses on **LLM post-training**, **multimodal learning**, **agent memory**, and **trustworthy AI**. I am particularly interested in understanding why learning methods work and translating those insights into reliable, practical systems. I am grateful to have collaborated with [Weize Liu](https://attention-is-all-i-need.github.io/), [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/), [Na Min An](https://namin-an.github.io/), [Wenjie Qu](https://quwenjie.github.io/), [Kening Zheng](https://init-neok.github.io/), and [Weiwei Sun](https://sunnweiwei.github.io/). I also sincerely appreciate the guidance and support I have received from all my mentors and collaborators.
 
-You can find my work on [Google Scholar](https://scholar.google.com/citations?user=SJQZDGUAAAAJ) (<span class="scholar-citation">citations: <span id="total_cit" aria-live="polite">updating</span></span>), [GitHub](https://github.com/Z1zs), and [OpenReview](https://openreview.net/profile?id=%7EJiahao_Huo2).
+You can find my work on [Google Scholar](https://scholar.google.com/citations?user=SJQZDGUAAAAJ) (<span class="scholar-citation">citations: <span id="total_cit" data-fallback="772" aria-live="polite">772</span></span>), [GitHub](https://github.com/Z1zs), and [OpenReview](https://openreview.net/profile?id=%7EJiahao_Huo2).
 
 
 # 🔥 News
@@ -47,7 +47,7 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 
 - A self-anchored semantic watermarking framework designed to remain detectable under paragraph-level paraphrase attacks while preserving generation quality.
 
-[Paper](https://arxiv.org/abs/2605.25796) <span class="show_paper_citations" data="SJQZDGUAAAAJ:4DMP91E08xMC" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/Z1zs/SAMark) <a class="github-stars" href="https://github.com/Z1zs/SAMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/SAMark?style=flat-square&amp;label=stars" alt="GitHub stars for SAMark"></a> · [Project](/SAMark/)
+[Paper](https://arxiv.org/abs/2605.25796) <span class="show_paper_citations" data="SJQZDGUAAAAJ:4DMP91E08xMC" data-fallback="0" aria-live="polite">| Citations: 0</span> · [Code](https://github.com/Z1zs/SAMark) <a class="github-stars" href="https://github.com/Z1zs/SAMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/SAMark?style=flat-square&amp;label=stars" alt="GitHub stars for SAMark"></a> · [Project](/SAMark/)
 
 </div></div>
 
@@ -60,7 +60,7 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 
 - A semantic watermarking method that encodes detectable structure through jointly constrained channels while preserving the language model's sampling distribution.
 
-[Paper](https://arxiv.org/abs/2509.21057) <span class="show_paper_citations" data="SJQZDGUAAAAJ:roLk4NBRz8UC" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/PMark-repo/PMark) <a class="github-stars" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/PMark-repo/PMark?style=flat-square&amp;label=stars" alt="GitHub stars for PMark"></a> · [Project](/PMark/)
+[Paper](https://arxiv.org/abs/2509.21057) <span class="show_paper_citations" data="SJQZDGUAAAAJ:roLk4NBRz8UC" data-fallback="15" aria-live="polite">| Citations: 15</span> · [Code](https://github.com/PMark-repo/PMark) <a class="github-stars" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/PMark-repo/PMark?style=flat-square&amp;label=stars" alt="GitHub stars for PMark"></a> · [Project](/PMark/)
 
 </div></div>
 
@@ -73,7 +73,7 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 
 - An autoregressive latent-space embedding model that represents visual documents with compact multi-vector sequences and supports controllable late-interaction retrieval.
 
-[Paper](https://arxiv.org/abs/2601.21262) <span class="show_paper_citations" data="SJQZDGUAAAAJ:8k81kl-MbHgC" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/Z1zs/Causal-Embed) <a class="github-stars" href="https://github.com/Z1zs/Causal-Embed" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/Causal-Embed?style=flat-square&amp;label=stars" alt="GitHub stars for CausalEmbed"></a> · [Models](https://huggingface.co/collections/Z1zs/causalembed) · [Project](/CausalEmbed/)
+[Paper](https://arxiv.org/abs/2601.21262) <span class="show_paper_citations" data="SJQZDGUAAAAJ:8k81kl-MbHgC" data-fallback="1" aria-live="polite">| Citations: 1</span> · [Code](https://github.com/Z1zs/Causal-Embed) <a class="github-stars" href="https://github.com/Z1zs/Causal-Embed" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/Causal-Embed?style=flat-square&amp;label=stars" alt="GitHub stars for CausalEmbed"></a> · [Models](https://huggingface.co/collections/Z1zs/causalembed) · [Project](/CausalEmbed/)
 
 </div></div>
 
@@ -86,7 +86,7 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 
 - A modality-aware unlearning framework that suppresses target visual concepts through saliency-guided, geometry-constrained updates while retaining textual knowledge and general visual capabilities.
 
-[Paper](https://arxiv.org/abs/2502.11051) <span class="show_paper_citations" data="SJQZDGUAAAAJ:zYLM7Y9cAGgC" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/Z1zs/MMUnlearner) <a class="github-stars" href="https://github.com/Z1zs/MMUnlearner" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/MMUnlearner?style=flat-square&amp;label=stars" alt="GitHub stars for MMUnlearner"></a> · [Project](/MMUnlearner/)
+[Paper](https://arxiv.org/abs/2502.11051) <span class="show_paper_citations" data="SJQZDGUAAAAJ:zYLM7Y9cAGgC" data-fallback="57" aria-live="polite">| Citations: 57</span> · [Code](https://github.com/Z1zs/MMUnlearner) <a class="github-stars" href="https://github.com/Z1zs/MMUnlearner" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/MMUnlearner?style=flat-square&amp;label=stars" alt="GitHub stars for MMUnlearner"></a> · [Project](/MMUnlearner/)
 
 </div></div>
 
@@ -99,7 +99,7 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wen
 
 - A mixture-of-agents framework for multimodal mathematical error detection, combining image–text consistency validation, visual semantic interpretation, and integrative error analysis.
 
-[Paper](https://arxiv.org/abs/2503.18132) <span class="show_paper_citations" data="SJQZDGUAAAAJ:W7OEmFMy1HYC" aria-live="polite">| Citations: updating</span>
+[Paper](https://arxiv.org/abs/2503.18132) <span class="show_paper_citations" data="SJQZDGUAAAAJ:W7OEmFMy1HYC" data-fallback="39" aria-live="polite">| Citations: 39</span>
 
 </div></div>
 
@@ -112,7 +112,7 @@ Zhiyu Li, Shichao Song, Chenyang Xi, Hanyu Wang, Chen Tang, Simin Niu, Ding Chen
 
 - An open-source memory operating system that provides persistent memory production, retrieval, and lifecycle management for AI agents and multimodal applications.
 
-[Paper](https://arxiv.org/abs/2507.03724) <span class="show_paper_citations" data="SJQZDGUAAAAJ:LkGwnXOMwfcC" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/MemTensor/MemOS) <a class="github-stars" href="https://github.com/MemTensor/MemOS" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/MemTensor/MemOS?style=flat-square&amp;label=stars" alt="GitHub stars for MemOS"></a> · [Project](https://memos-docs.openmem.net/)
+[Paper](https://arxiv.org/abs/2507.03724) <span class="show_paper_citations" data="SJQZDGUAAAAJ:LkGwnXOMwfcC" data-fallback="136" aria-live="polite">| Citations: 136</span> · [Code](https://github.com/MemTensor/MemOS) <a class="github-stars" href="https://github.com/MemTensor/MemOS" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/MemTensor/MemOS?style=flat-square&amp;label=stars" alt="GitHub stars for MemOS"></a> · [Project](https://memos-docs.openmem.net/)
 
 </div></div>
 
@@ -125,7 +125,7 @@ Zhiyu Li, Shichao Song, Chenyang Xi, Hanyu Wang, Chen Tang, Simin Niu, Ding Chen
 
 - An interpretability framework that identifies domain-specific neurons, traces their contribution to multimodal predictions, and validates their causal effect through controlled intervention.
 
-[Paper](https://arxiv.org/abs/2406.11193) <span class="show_paper_citations" data="SJQZDGUAAAAJ:u5HHmVD_uO8C" aria-live="polite">| Citations: updating</span> · [Code](https://github.com/Z1zs/MMNeuron) <a class="github-stars" href="https://github.com/Z1zs/MMNeuron" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/MMNeuron?style=flat-square&amp;label=stars" alt="GitHub stars for MMNeuron"></a> · [Project](/MMNeuron/)
+[Paper](https://arxiv.org/abs/2406.11193) <span class="show_paper_citations" data="SJQZDGUAAAAJ:u5HHmVD_uO8C" data-fallback="62" aria-live="polite">| Citations: 62</span> · [Code](https://github.com/Z1zs/MMNeuron) <a class="github-stars" href="https://github.com/Z1zs/MMNeuron" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/MMNeuron?style=flat-square&amp;label=stars" alt="GitHub stars for MMNeuron"></a> · [Project](/MMNeuron/)
 
 </div></div>
 

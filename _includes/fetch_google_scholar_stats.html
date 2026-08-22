@@ -17,27 +17,35 @@
             .done(function (data) {
                 if (totalCitationElement) {
                     var totalCitation = Number(data && data.citedby);
+                    var totalFallback = totalCitationElement.getAttribute('data-fallback');
                     totalCitationElement.textContent = Number.isFinite(totalCitation)
                         ? totalCitation.toLocaleString()
-                        : 'unavailable';
+                        : (totalFallback !== null ? totalFallback : 'unavailable');
                 }
 
                 Array.prototype.forEach.call(citationElements, function (element) {
                     var paperId = element.getAttribute('data');
                     var publication = data && data.publications && data.publications[paperId];
                     var numCitations = Number(publication && publication.num_citations);
+                    var fallback = element.getAttribute('data-fallback');
                     element.textContent = Number.isFinite(numCitations)
                         ? '| Citations: ' + numCitations.toLocaleString()
-                        : '| Citations: unavailable';
+                        : (fallback !== null ? '| Citations: ' + fallback : '| Citations: unavailable');
                 });
             })
             .fail(function () {
                 if (totalCitationElement) {
-                    totalCitationElement.textContent = 'unavailable';
+                    var totalFallback = totalCitationElement.getAttribute('data-fallback');
+                    if (totalFallback !== null) {
+                        totalCitationElement.textContent = totalFallback;
+                    }
                 }
 
                 Array.prototype.forEach.call(citationElements, function (element) {
-                    element.textContent = '| Citations: unavailable';
+                    var fallback = element.getAttribute('data-fallback');
+                    if (fallback !== null) {
+                        element.textContent = '| Citations: ' + fallback;
+                    }
                 });
             });
     });
