@@ -33,9 +33,9 @@ layout: null
           <div class="actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2406.11193" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
             <a class="button" href="https://github.com/Z1zs/MMNeuron" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="button" href="#abstract">Read overview ↓</a>
+            <a class="button" href="#motivation">Motivation &amp; method ↓</a>
           </div>
-          <span class="scroll-note">Scroll to explore</span>
+          <span class="scroll-note">Project overview</span>
         </div>
         <div class="hero-art reveal">
           <div class="media-frame">
@@ -45,13 +45,13 @@ layout: null
         </div>
       </section>
 
-      <section class="section" id="abstract">
+      <section class="section" id="motivation">
         <div class="section-heading reveal">
-          <p class="section-kicker">The question</p>
-          <p class="section-intro">What makes a multimodal language model behave differently on documents, medicine, commerce, advertising, or remote sensing?</p>
+          <div><p class="section-kicker">Motivation</p><h2>Domain competence should be traced to internal computational mechanisms.</h2></div>
+          <p class="section-intro">Aggregate benchmark scores reveal what a multimodal model can do, but not where specialized visual knowledge is represented or whether identified components have a causal role.</p>
         </div>
         <div class="abstract-grid reveal">
-          <p class="abstract-copy">MMNeuron studies domain-specific neurons in multimodal large language models and asks how they support specialized visual–language behavior. The work identifies where these neurons appear, analyzes the mechanism through which they affect predictions, and proposes a three-stage view of domain-specific processing. A logit-lens analysis connects neuron activation to the model’s output space, while controlled manipulation shows that domain-specific neurons are not merely correlated with performance: changing them can shift domain accuracy by up to 10% in the reported experiments.</p>
+          <div class="abstract-copy"><p>Multimodal large language models operate across heterogeneous domains such as documents, medicine, commerce, advertising, and remote sensing. Existing interpretability analyses commonly describe attention patterns or global representations, leaving the neuron-level organization of domain-specific behavior insufficiently characterized.</p><p>MMNeuron studies whether a sparse subset of neurons consistently distinguishes individual domains, how those neurons influence intermediate predictions, and whether intervening on them changes downstream accuracy. The analysis connects activation statistics, layer-wise mechanisms, and controlled interventions within one framework.</p></div>
           <div class="meta-list">
             <div class="meta-item"><span>Venue</span><strong>EMNLP 2024 Main</strong></div>
             <div class="meta-item"><span>Lens</span><strong>Neuron-level analysis</strong></div>
@@ -63,8 +63,8 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">At a glance</p>
-            <h2>Interpret specialization from the inside.</h2>
+            <p class="section-kicker">Main findings</p>
+            <h2>Evidence for sparse domain specialization</h2>
           </div>
         </div>
         <div class="highlight-grid reveal">
@@ -77,14 +77,15 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">How it works</p>
-            <h2>Find, explain, intervene.</h2>
+            <p class="section-kicker">Methodology</p>
+            <h2>Identification, interpretation, and intervention</h2>
           </div>
+          <p class="section-intro">The framework moves from statistical discovery to mechanistic analysis and finally to causal validation.</p>
         </div>
         <div class="idea-grid reveal">
-          <article class="idea-card"><h3>Discover domain neurons</h3><p>Locate neurons whose activation patterns distinguish one visual–language domain from the others.</p></article>
-          <article class="idea-card"><h3>Trace the mechanism</h3><p>Use a three-stage interpretation and logit-lens analysis to connect internal activation to domain-specific outputs.</p></article>
-          <article class="idea-card"><h3>Test causality</h3><p>Manipulate the discovered neurons and measure the change in domain performance to validate their functional role.</p></article>
+          <article class="idea-card"><h3>Domain-specific neuron identification</h3><p>Activation statistics are collected for examples from five visual domains. Neurons with consistently selective responses are identified by contrasting within-domain activation against the remaining domains across model layers.</p></article>
+          <article class="idea-card"><h3>Layer-wise mechanism analysis</h3><p>The discovered neurons are organized into a three-stage processing account. Logit-lens projections map intermediate activations into the output vocabulary, revealing how domain evidence emerges and propagates toward task predictions.</p></article>
+          <article class="idea-card"><h3>Causal intervention</h3><p>Selected neuron activations are enhanced or suppressed during inference. Measuring domain-specific accuracy before and after intervention tests whether the neurons contribute functionally to behavior rather than merely correlate with it.</p></article>
         </div>
       </section>
 
@@ -92,7 +93,7 @@ layout: null
         <div class="section-heading reveal">
           <div>
             <p class="section-kicker">Visual results</p>
-            <h2>A map of multimodal specialization.</h2>
+            <h2>Mechanistic analysis across domains</h2>
           </div>
           <p class="section-intro">From model anatomy to domain examples, the figures make an internal phenomenon concrete.</p>
         </div>
@@ -109,7 +110,7 @@ layout: null
       </section>
 
       <section class="section" id="citation">
-        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use MMNeuron in your work.</h2></div></div>
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>BibTeX</h2></div></div>
         <div class="citation-wrap reveal">
           <button class="copy-citation" type="button" data-target="mmneuron-citation">Copy</button>
           <pre class="citation" id="mmneuron-citation"><code>@inproceedings{huo2024mmneuron,

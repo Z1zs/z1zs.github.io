@@ -33,9 +33,9 @@ layout: null
           <div class="actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2605.25796" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
             <a class="button" href="https://github.com/Z1zs/SAMark" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="button" href="#abstract">Read overview ↓</a>
+            <a class="button" href="#motivation">Motivation &amp; method ↓</a>
           </div>
-          <span class="scroll-note">Scroll to explore</span>
+          <span class="scroll-note">Project overview</span>
         </div>
         <div class="hero-art reveal">
           <div class="media-frame">
@@ -45,13 +45,13 @@ layout: null
         </div>
       </section>
 
-      <section class="section" id="abstract">
+      <section class="section" id="motivation">
         <div class="section-heading reveal">
-          <p class="section-kicker">The problem</p>
-          <p class="section-intro">Semantic watermarks should remain detectable after text is rewritten, without making the original writing feel watermarked.</p>
+          <div><p class="section-kicker">Motivation</p><h2>Robust watermarking requires a stable semantic reference.</h2></div>
+          <p class="section-intro">The central challenge is to preserve detectability after substantial rewriting while maintaining the fluency and semantic diversity of generated text.</p>
         </div>
         <div class="abstract-grid reveal">
-          <p class="abstract-copy">Existing semantic watermarking methods can depend on sentence order or a step-dependent partition of the vocabulary. SAMark removes that dependency with a self-anchored framework: every sentence derives a stable semantic region from its own context. Multi-channel hyperbolic scoring strengthens the watermark signal, while diversity-aware filtering protects generation quality. Across paragraph-level paraphrase attacks, SAMark reaches up to 90.2% TP@FP1% in the reported setting and improves the robustness–quality frontier over prior methods.</p>
+          <div class="abstract-copy"><p>Most token-level watermarks encode signals through local vocabulary perturbations; these signals can be weakened by paraphrasing. Existing semantic alternatives improve invariance, but often rely on sequentially propagated states or partitions tied to preceding sentences. Paragraph reordering, insertion, or deletion can therefore desynchronize generation and detection.</p><p>SAMark addresses this dependency by deriving the watermark reference from each sentence itself. This self-anchored formulation makes the detection unit locally reproducible and motivates a semantic signal that is both paraphrase-resistant and independent of global sentence order.</p></div>
           <div class="meta-list">
             <div class="meta-item"><span>Task</span><strong>Semantic text watermarking</strong></div>
             <div class="meta-item"><span>Robustness target</span><strong>Paragraph paraphrase</strong></div>
@@ -63,8 +63,8 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">At a glance</p>
-            <h2>Robustness without a quality tax.</h2>
+            <p class="section-kicker">Main findings</p>
+            <h2>Empirical results</h2>
           </div>
         </div>
         <div class="highlight-grid reveal">
@@ -77,14 +77,15 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">How it works</p>
-            <h2>Anchor every sentence.</h2>
+            <p class="section-kicker">Methodology</p>
+            <h2>Self-anchored semantic watermarking</h2>
           </div>
+          <p class="section-intro">SAMark constructs and verifies the watermark at the sentence level through three coordinated components.</p>
         </div>
         <div class="idea-grid reveal">
-          <article class="idea-card"><h3>Self-anchored seed</h3><p>Each sentence determines its own semantic anchor, so the watermark does not rely on a fragile global sentence order.</p></article>
-          <article class="idea-card"><h3>Hyperbolic signal</h3><p>Multi-channel hyperbolic scoring separates semantic regions while preserving a compact, meaningful signal for detection.</p></article>
-          <article class="idea-card"><h3>Quality-aware filtering</h3><p>Diversity-aware candidate filtering keeps the watermark robust while retaining natural and varied generations.</p></article>
+          <article class="idea-card"><h3>Self-anchored region construction</h3><p>For each generated sentence, SAMark computes a semantic anchor from the sentence context and uses it to define a reproducible watermark region. Because the anchor is local, detection does not require recovering the original sentence sequence.</p></article>
+          <article class="idea-card"><h3>Multi-channel hyperbolic scoring</h3><p>Candidate sentences are represented in hyperbolic semantic space and evaluated through complementary channels. Their aggregated scores determine whether a candidate lies in the designated region and strengthen the statistical evidence available to the detector.</p></article>
+          <article class="idea-card"><h3>Diversity-aware generation and detection</h3><p>A diversity-aware filter removes semantically redundant or low-quality candidates before sampling. At inference time, sentence-level scores are recomputed and aggregated into a document-level hypothesis test for watermark detection.</p></article>
         </div>
       </section>
 
@@ -92,13 +93,13 @@ layout: null
         <div class="section-heading reveal">
           <div>
             <p class="section-kicker">Visual results</p>
-            <h2>From geometry to attacks.</h2>
+            <h2>Method analysis and experimental results</h2>
           </div>
           <p class="section-intro">The figures below show the design intuition, robustness frontier, and behavior under word-level attacks.</p>
         </div>
         <div class="figure-grid">
           <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/overview.png" alt="SAMark overview diagram"><figcaption class="figure-caption"><strong>Overview</strong><span>Self-anchored generation and paragraph-level detection form one consistent watermarking pipeline.</span></figcaption></figure>
-          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/pareto-frontier.png" alt="SAMark robustness quality Pareto frontier"><figcaption class="figure-caption"><strong>Robustness–quality frontier</strong><span>SAMark moves the practical frontier toward stronger detection with competitive generation quality.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/pareto-frontier.png" alt="SAMark robustness quality Pareto frontier"><figcaption class="figure-caption"><strong>Robustness–quality frontier</strong><span>The comparison reports stronger detection under paraphrasing while maintaining competitive generation quality.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/demo-trace.png" alt="SAMark detection trace"><figcaption class="figure-caption"><strong>Detection trace</strong><span>A token- and sentence-level view of the evidence accumulated by the detector.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/geometry.png" alt="SAMark geometric semantic landscape"><figcaption class="figure-caption"><strong>Semantic geometry</strong><span>Geometric separation makes the self-anchored signal interpretable and reusable across contexts.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/word-s-attack.png" alt="SAMark word substitution attack results"><figcaption class="figure-caption"><strong>Word substitution attacks</strong><span>Performance remains stable as local word substitutions perturb the watermarked text.</span></figcaption></figure>
@@ -107,7 +108,7 @@ layout: null
       </section>
 
       <section class="section" id="citation">
-        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use SAMark in your work.</h2></div></div>
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>BibTeX</h2></div></div>
         <div class="citation-wrap reveal">
           <button class="copy-citation" type="button" data-target="samark-citation">Copy</button>
           <pre class="citation" id="samark-citation"><code>@article{huo2026samark,

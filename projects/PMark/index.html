@@ -33,9 +33,9 @@ layout: null
           <div class="actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2509.21057" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
             <a class="button" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="button" href="#abstract">Read overview ↓</a>
+            <a class="button" href="#motivation">Motivation &amp; method ↓</a>
           </div>
-          <span class="scroll-note">Scroll to explore</span>
+          <span class="scroll-note">Project overview</span>
         </div>
         <div class="hero-art reveal">
           <div class="media-frame">
@@ -45,13 +45,13 @@ layout: null
         </div>
       </section>
 
-      <section class="section" id="abstract">
+      <section class="section" id="motivation">
         <div class="section-heading reveal">
-          <p class="section-kicker">The problem</p>
-          <p class="section-intro">A semantic watermark should encode a reliable signal while leaving the text distribution—and therefore the writing quality—undisturbed.</p>
+          <div><p class="section-kicker">Motivation</p><h2>Robustness and distributional fidelity should be optimized jointly.</h2></div>
+          <p class="section-intro">Semantic watermarking must introduce detectable structure without changing the language model distribution that determines generation quality.</p>
         </div>
         <div class="abstract-grid reveal">
-          <p class="abstract-copy">PMark treats semantic watermarking as a constrained channel-sampling problem. It generates candidate tokens, estimates multiple semantic channel distributions, and partitions them into watermark-compatible regions. The channel constraints are enforced jointly during sampling and context updating, allowing PMark to maintain a detectable signal without the token-level distortion introduced by conventional biased decoding. The resulting design provides a clean route to robust, distortion-free semantic watermarking.</p>
+          <div class="abstract-copy"><p>Conventional text watermarks bias next-token probabilities toward a key-dependent subset of the vocabulary. Although effective for detection, this intervention alters the original model distribution and may reduce fluency or become fragile under semantic-preserving edits. Semantic-level methods improve robustness, but their sampling procedures can still introduce uncontrolled distributional distortion.</p><p>PMark formulates the problem through semantic channels: a watermark is encoded by coupling channel assignments while preserving the marginal distribution of the language model. This perspective provides an explicit criterion for distortion-free generation rather than treating quality preservation as an empirical side effect.</p></div>
           <div class="meta-list">
             <div class="meta-item"><span>Venue</span><strong>ICLR 2026</strong></div>
             <div class="meta-item"><span>Task</span><strong>Semantic watermarking</strong></div>
@@ -63,8 +63,8 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">At a glance</p>
-            <h2>Encode meaning, preserve distribution.</h2>
+            <p class="section-kicker">Contributions</p>
+            <h2>Methodological properties</h2>
           </div>
         </div>
         <div class="highlight-grid reveal">
@@ -77,14 +77,15 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">How it works</p>
-            <h2>Three channels, one constraint.</h2>
+            <p class="section-kicker">Methodology</p>
+            <h2>Constrained sampling over semantic channels</h2>
           </div>
+          <p class="section-intro">The generation procedure separates semantic representation, watermark assignment, and distribution-preserving sampling.</p>
         </div>
         <div class="idea-grid reveal">
-          <article class="idea-card"><h3>Candidate generation</h3><p>Construct a candidate set that reflects the language model’s natural next-token preferences.</p></article>
-          <article class="idea-card"><h3>Distribution estimation</h3><p>Estimate semantic channel distributions and identify the regions that can carry a watermark signal.</p></article>
-          <article class="idea-card"><h3>Constrained sampling</h3><p>Coordinate partitioning, multi-channel sampling, and context updating without injecting token-level bias.</p></article>
+          <article class="idea-card"><h3>Candidate construction</h3><p>At each generation step, PMark obtains candidate continuations from the base language model and embeds them in semantic space. The candidate probabilities retain the model's native likelihoods and form the empirical distribution to be preserved.</p></article>
+          <article class="idea-card"><h3>Channel estimation and partitioning</h3><p>The method estimates multiple semantic channel distributions and assigns regions to key-dependent green and red sets. Channel constraints regulate the partition so that watermark-compatible mass remains statistically balanced.</p></article>
+          <article class="idea-card"><h3>Distortion-free sampling</h3><p>PMark jointly samples across constrained channels and updates the context state after each selection. The coupling carries a detectable semantic signal while preserving the original marginal token distribution used by the language model.</p></article>
         </div>
       </section>
 
@@ -92,7 +93,7 @@ layout: null
         <div class="section-heading reveal">
           <div>
             <p class="section-kicker">Visual results</p>
-            <h2>Channel constraints in action.</h2>
+            <h2>Method analysis and experimental results</h2>
           </div>
           <p class="section-intro">The method and analysis figures connect the channel view to robustness and quality comparisons.</p>
         </div>
@@ -100,14 +101,14 @@ layout: null
           <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/framework.jpg" alt="PMark four-stage framework"><figcaption class="figure-caption"><strong>Four-stage watermarking pipeline</strong><span>Candidate generation, distribution estimation, green–red partitioning, and distortion-free sampling work as one constrained process.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/hyper.jpg" alt="PMark semantic channel analysis"><figcaption class="figure-caption"><strong>Semantic channel structure</strong><span>Channel-level geometry provides the foundation for a stable watermark signal.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/hyper-opt.jpg" alt="PMark optimized channel analysis"><figcaption class="figure-caption"><strong>Optimized channel constraints</strong><span>The optimized design improves the balance between semantic separation and generation behavior.</span></figcaption></figure>
-          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble.jpg" alt="PMark main comparison"><figcaption class="figure-caption"><strong>Main comparison</strong><span>PMark compares favorably across watermark detectability and text quality.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble.jpg" alt="PMark main comparison"><figcaption class="figure-caption"><strong>Main comparison</strong><span>The reported comparison jointly evaluates watermark detectability and text quality.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble-opt-c4.jpg" alt="PMark C4 evaluation"><figcaption class="figure-caption"><strong>C4 evaluation</strong><span>Channel constraints remain effective across the reported corpus and configuration.</span></figcaption></figure>
           <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble-opt-bs.jpg" alt="PMark book summary evaluation"><figcaption class="figure-caption"><strong>BookSum evaluation</strong><span>Robustness and quality trends persist on a different text domain.</span></figcaption></figure>
         </div>
       </section>
 
       <section class="section" id="citation">
-        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Build on PMark.</h2></div></div>
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>BibTeX</h2></div></div>
         <div class="citation-wrap reveal">
           <button class="copy-citation" type="button" data-target="pmark-citation">Copy</button>
           <pre class="citation" id="pmark-citation"><code>@article{huo2025pmark,

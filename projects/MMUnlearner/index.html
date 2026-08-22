@@ -33,9 +33,9 @@ layout: null
           <div class="actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2502.11051" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
             <a class="button" href="https://github.com/Z1zs/MMUnlearner" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="button" href="#abstract">Read overview ↓</a>
+            <a class="button" href="#motivation">Motivation &amp; method ↓</a>
           </div>
-          <span class="scroll-note">Scroll to explore</span>
+          <span class="scroll-note">Project overview</span>
         </div>
         <div class="hero-art reveal">
           <div class="media-frame">
@@ -45,13 +45,13 @@ layout: null
         </div>
       </section>
 
-      <section class="section" id="abstract">
+      <section class="section" id="motivation">
         <div class="section-heading reveal">
-          <p class="section-kicker">The problem</p>
-          <p class="section-intro">For a multimodal model, forgetting a visual concept should not erase the language knowledge and general capabilities that users still need.</p>
+          <div><p class="section-kicker">Motivation</p><h2>Multimodal unlearning requires modality-aware forgetting boundaries.</h2></div>
+          <p class="section-intro">Removing a target visual concept should not inadvertently erase its textual knowledge or degrade the model's general perception and reasoning capabilities.</p>
         </div>
         <div class="abstract-grid reveal">
-          <p class="abstract-copy">MMUnlearner reformulates multimodal machine unlearning for multimodal large language models. Instead of treating unlearning as a single-model weight deletion problem, it explicitly separates the target visual patterns to erase from the textual knowledge and common visual concepts to retain. Its geometry-constrained gradient ascent is guided by a weight saliency map, jointly restricting updates to the parameters most relevant to the target while protecting the remaining knowledge. Across the reported evaluations, MMUnlearner improves the balance between forgetting, general utility, and knowledge retention over standard baselines.</p>
+          <div class="abstract-copy"><p>Machine-unlearning methods developed for unimodal classifiers do not directly specify what should be forgotten in a multimodal large language model. A target entity may be represented simultaneously through visual appearance, linguistic facts, and associations with common concepts. Updating shared parameters can therefore cause broad collateral degradation.</p><p>MMUnlearner reformulates the objective as selective visual forgetting under explicit retention constraints. It distinguishes target visual patterns from textual knowledge and common visual perception, then localizes parameter updates according to both saliency and gradient geometry.</p></div>
           <div class="meta-list">
             <div class="meta-item"><span>Venue</span><strong>ACL 2025 Findings</strong></div>
             <div class="meta-item"><span>Task</span><strong>Multimodal unlearning</strong></div>
@@ -63,8 +63,8 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">At a glance</p>
-            <h2>Forget the target. Keep the model useful.</h2>
+            <p class="section-kicker">Objectives</p>
+            <h2>Selective forgetting and retention</h2>
           </div>
         </div>
         <div class="highlight-grid reveal">
@@ -77,14 +77,15 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">How it works</p>
-            <h2>Unlearn with a protected boundary.</h2>
+            <p class="section-kicker">Methodology</p>
+            <h2>Saliency-guided, geometry-constrained unlearning</h2>
           </div>
+          <p class="section-intro">MMUnlearner identifies target-relevant parameters, computes competing forgetting and retention directions, and restricts optimization to a safe update subspace.</p>
         </div>
         <div class="idea-grid reveal">
-          <article class="idea-card"><h3>Reframe the objective</h3><p>Define multimodal unlearning as target visual forgetting under explicit retention constraints for text and common concepts.</p></article>
-          <article class="idea-card"><h3>Find salient weights</h3><p>Estimate which parameters contribute most to the target concept and focus the update where it can do the least collateral damage.</p></article>
-          <article class="idea-card"><h3>Constrain the update</h3><p>Geometry-aware gradient ascent removes target evidence while regularizing the model toward preserved knowledge.</p></article>
+          <article class="idea-card"><h3>Modality-aware objectives</h3><p>The training objective increases loss on target visual instances while retaining performance on textual descriptions and non-target visual concepts. This decomposition states explicitly which aspects of an entity should remain accessible.</p></article>
+          <article class="idea-card"><h3>Weight-saliency localization</h3><p>A saliency map estimates the parameters most responsible for the forget set relative to retained knowledge. Optimization is concentrated on this subset to reduce unnecessary changes to the broader multimodal model.</p></article>
+          <article class="idea-card"><h3>Geometry-constrained ascent</h3><p>The forgetting gradient is adjusted according to its geometric relationship with retention gradients. Conflicting components are constrained, allowing target evidence to be suppressed while limiting interference with textual knowledge and general utility.</p></article>
         </div>
       </section>
 
@@ -92,7 +93,7 @@ layout: null
         <div class="section-heading reveal">
           <div>
             <p class="section-kicker">Visual results</p>
-            <h2>Forgetting is a balancing act.</h2>
+            <h2>Framework and forgetting–retention evaluation</h2>
           </div>
           <p class="section-intro">The method figures make the retained and forgotten regions explicit, while the experiments expose the tradeoffs.</p>
         </div>
@@ -107,7 +108,7 @@ layout: null
       </section>
 
       <section class="section" id="citation">
-        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use MMUnlearner in your work.</h2></div></div>
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>BibTeX</h2></div></div>
         <div class="citation-wrap reveal">
           <button class="copy-citation" type="button" data-target="mmunlearner-citation">Copy</button>
           <pre class="citation" id="mmunlearner-citation"><code>@article{huo2025mmunlearner,

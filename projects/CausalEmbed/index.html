@@ -33,9 +33,9 @@ layout: null
           <div class="actions">
             <a class="button button-primary" href="https://arxiv.org/abs/2601.21262" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
             <a class="button" href="https://github.com/Z1zs/Causal-Embed" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="button" href="#abstract">Read overview ↓</a>
+            <a class="button" href="#motivation">Motivation &amp; method ↓</a>
           </div>
-          <span class="scroll-note">Scroll to explore</span>
+          <span class="scroll-note">Project overview</span>
         </div>
         <div class="hero-art reveal">
           <div class="media-frame">
@@ -45,13 +45,13 @@ layout: null
         </div>
       </section>
 
-      <section class="section" id="abstract">
+      <section class="section" id="motivation">
         <div class="section-heading reveal">
-          <p class="section-kicker">The problem</p>
-          <p class="section-intro">Visual documents contain rich layout and text signals, but retrieval systems often pay for that richness with long token sequences.</p>
+          <div><p class="section-kicker">Motivation</p><h2>Visual-document retrieval needs compact representations without premature information collapse.</h2></div>
+          <p class="section-intro">A single vector is efficient but restrictive, whereas retaining all visual tokens incurs substantial storage and retrieval costs.</p>
         </div>
         <div class="abstract-grid reveal">
-          <p class="abstract-copy">CausalEmbed introduces autoregressive multi-vector generation directly in latent space. Given a visual document, a causal generator produces a compact sequence of embedding vectors that preserves complementary evidence for retrieval. The same representation supports late interaction with text queries, while test-time scaling lets the system trade additional latent computation for accuracy when needed. In the reported settings, CausalEmbed uses 30–155× fewer tokens than token-heavy visual document representations.</p>
+          <div class="abstract-copy"><p>Visual documents combine textual content, spatial layout, tables, figures, and typography. Dense retrieval systems must preserve these heterogeneous signals, yet existing representations typically choose between aggressive single-vector compression and token-level storage that scales poorly with corpus size.</p><p>CausalEmbed investigates an intermediate representation: a short, ordered sequence of latent vectors generated specifically for retrieval. Autoregressive generation allows each vector to condition on earlier vectors and encode complementary evidence, while the sequence length provides a direct mechanism for controlling the efficiency–accuracy trade-off.</p></div>
           <div class="meta-list">
             <div class="meta-item"><span>Task</span><strong>Visual document retrieval</strong></div>
             <div class="meta-item"><span>Representation</span><strong>Autoregressive multi-vector</strong></div>
@@ -63,8 +63,8 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">At a glance</p>
-            <h2>More evidence, fewer tokens.</h2>
+            <p class="section-kicker">Main findings</p>
+            <h2>Efficiency and scalability</h2>
           </div>
         </div>
         <div class="highlight-grid reveal">
@@ -77,14 +77,15 @@ layout: null
       <section class="section">
         <div class="section-heading reveal">
           <div>
-            <p class="section-kicker">How it works</p>
-            <h2>Generate the right granularity.</h2>
+            <p class="section-kicker">Methodology</p>
+            <h2>Autoregressive multi-vector embedding</h2>
           </div>
+          <p class="section-intro">The model learns a compact latent sequence and performs fine-grained query–document matching through late interaction.</p>
         </div>
         <div class="idea-grid reveal">
-          <article class="idea-card"><h3>Encode the page</h3><p>A visual document encoder turns layout, text, and image evidence into a shared latent representation.</p></article>
-          <article class="idea-card"><h3>Generate vectors causally</h3><p>A lightweight autoregressive generator emits a sequence of complementary vectors, conditioned on what has already been generated.</p></article>
-          <article class="idea-card"><h3>Interact late</h3><p>Multi-vector document embeddings preserve fine-grained matching with text queries without storing every visual token.</p></article>
+          <article class="idea-card"><h3>Multimodal document encoding</h3><p>A visual encoder processes the rendered page and preserves textual, visual, and layout evidence in a shared hidden representation. A text encoder independently maps each query into the retrieval space.</p></article>
+          <article class="idea-card"><h3>Causal latent generation</h3><p>An autoregressive generator produces document vectors sequentially. Each new vector attends to the encoded page and previously generated vectors, encouraging the sequence to capture complementary rather than duplicated information.</p></article>
+          <article class="idea-card"><h3>Late-interaction retrieval</h3><p>Query and document vectors are compared with a late-interaction scoring function and trained using retrieval supervision. At test time, varying the number of generated vectors adjusts storage, latency, and retrieval accuracy without retraining the encoder.</p></article>
         </div>
       </section>
 
@@ -92,7 +93,7 @@ layout: null
         <div class="section-heading reveal">
           <div>
             <p class="section-kicker">Visual results</p>
-            <h2>Compact representations that scale.</h2>
+            <h2>Architecture and retrieval evaluation</h2>
           </div>
           <p class="section-intro">These views highlight the architecture, retrieval quality, and the effect of scaling the latent sequence.</p>
         </div>
@@ -107,7 +108,7 @@ layout: null
       </section>
 
       <section class="section" id="citation">
-        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use CausalEmbed in your work.</h2></div></div>
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>BibTeX</h2></div></div>
         <div class="citation-wrap reveal">
           <button class="copy-citation" type="button" data-target="causalembed-citation">Copy</button>
           <pre class="citation" id="causalembed-citation"><code>@article{huo2026causalembed,
