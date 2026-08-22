@@ -1,0 +1,72 @@
+---
+permalink: /projects/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research projects by Jiahao Huo.">
+  <link rel="canonical" href="https://z1zs.github.io/projects/">
+  <title>Research Projects — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="samark">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <nav class="project-nav" aria-label="Project navigation">
+        <a href="{{ root }}/projects/" aria-current="page">All projects</a>
+        <a href="{{ root }}/">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="directory-hero">
+        <p class="eyebrow">Research projects</p>
+        <h1>Selected project pages</h1>
+        <p>A collection of project pages accompanying research on language-model reliability, multimodal representation learning, and model interpretability.</p>
+      </section>
+
+      <section class="project-directory-grid" aria-label="Research project list">
+        <a class="project-directory-card" href="{{ root }}/SAMark/">
+          <span>01 · TEXT WATERMARKING</span>
+          <h2>SAMark</h2>
+          <p>A self-anchored semantic watermarking framework for paragraph-level paraphrase robustness.</p>
+          <span class="directory-link">View project ↗</span>
+        </a>
+        <a class="project-directory-card" href="{{ root }}/PMark/">
+          <span>02 · TEXT WATERMARKING</span>
+          <h2>PMark</h2>
+          <p>Distortion-free semantic-level watermarking through constrained sampling over multiple semantic channels.</p>
+          <span class="directory-link">View project ↗</span>
+        </a>
+        <a class="project-directory-card" href="{{ root }}/CausalEmbed/">
+          <span>03 · DOCUMENT RETRIEVAL</span>
+          <h2>CausalEmbed</h2>
+          <p>Autoregressive multi-vector generation in latent space for efficient visual-document retrieval.</p>
+          <span class="directory-link">View project ↗</span>
+        </a>
+        <a class="project-directory-card" href="{{ root }}/MMUnlearner/">
+          <span>04 · MODEL UNLEARNING</span>
+          <h2>MMUnlearner</h2>
+          <p>Modality-aware multimodal unlearning that separates visual forgetting from textual retention.</p>
+          <span class="directory-link">View project ↗</span>
+        </a>
+        <a class="project-directory-card" href="{{ root }}/MMNeuron/">
+          <span>05 · INTERPRETABILITY</span>
+          <h2>MMNeuron</h2>
+          <p>Neuron-level analysis of domain-specific mechanisms in multimodal large language models.</p>
+          <span class="directory-link">View project ↗</span>
+        </a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Research project pages by <a href="{{ root }}/">Jiahao Huo</a></footer>
+</body>
+</html>

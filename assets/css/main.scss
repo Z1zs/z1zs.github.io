@@ -110,3 +110,23 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.scholar-citation {
+    white-space: nowrap;
+}
+
+.github-stars {
+    display: inline-flex;
+    align-items: center;
+    margin-left: .35em;
+    vertical-align: middle;
+
+    img {
+        display: block;
+        width: auto;
+        height: 20px;
+        max-width: none;
+        aspect-ratio: auto;
+        box-shadow: none;
+    }
+}

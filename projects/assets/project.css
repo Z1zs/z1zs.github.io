@@ -119,8 +119,111 @@ body.project-page a:hover {
   color: var(--accent-strong) !important;
 }
 
+.project-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.project-nav a {
+  color: var(--muted) !important;
+  font-size: 0.86rem;
+  text-decoration: none !important;
+}
+
+.project-nav a:hover,
+.project-nav a[aria-current="page"] {
+  color: var(--accent-strong) !important;
+}
+
+.project-nav a[aria-current="page"] {
+  font-weight: 750;
+}
+
 .project-main {
   overflow: hidden;
+}
+
+.directory-hero {
+  max-width: 780px;
+  padding: 90px 0 54px;
+}
+
+.directory-hero h1 {
+  margin: 0 0 20px;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.directory-hero p:last-child {
+  max-width: 650px;
+  margin: 0;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  line-height: 1.75;
+}
+
+.project-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  padding-bottom: 84px;
+}
+
+.project-directory-card {
+  display: block;
+  min-height: 220px;
+  padding: 27px 27px 24px;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--accent);
+  border-radius: 5px;
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.project-directory-card:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.project-directory-card > span:first-child {
+  display: block;
+  margin-bottom: 28px;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.project-directory-card h2 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.project-directory-card p {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.project-directory-card .directory-link {
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -637,6 +740,14 @@ body.project-page a:hover {
     font-size: 0.75rem;
   }
 
+  .project-nav {
+    gap: 13px;
+  }
+
+  .project-nav a {
+    font-size: 0.75rem;
+  }
+
   .hero {
     gap: 38px;
     padding: 55px 0 78px;
@@ -666,6 +777,15 @@ body.project-page a:hover {
   .idea-grid,
   .figure-grid {
     grid-template-columns: 1fr;
+  }
+
+  .directory-hero {
+    padding: 60px 0 38px;
+  }
+
+  .project-directory-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
   }
 
   .figure-card.wide {
