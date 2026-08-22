@@ -14,7 +14,7 @@ I am an MPhil student in Artificial Intelligence at the Hong Kong University of 
 
 My research focuses on **LLM post-training**, **multimodal learning**, **agent memory**, and **trustworthy AI**. I am particularly interested in understanding why learning methods work and translating those insights into reliable, practical systems. I am grateful to have collaborated with [Weize Liu](https://attention-is-all-i-need.github.io/), [Yibo Yan](https://stupidbuluchacha.github.io/), [Kaichen Huang](https://www.lamda.nju.edu.cn/huangkc/), [Na Min An](https://namin-an.github.io/), [Wenjie Qu](https://quwenjie.github.io/), [Kening Zheng](https://init-neok.github.io/), and [Weiwei Sun](https://sunnweiwei.github.io/). I also sincerely appreciate the guidance and support I have received from all my mentors and collaborators.
 
-You can find my work on [Google Scholar](https://scholar.google.com/citations?user=SJQZDGUAAAAJ) (<span class="scholar-citation">citations: <span id="total_cit" data-fallback="772" aria-live="polite">772</span></span>), [GitHub](https://github.com/Z1zs), and [OpenReview](https://openreview.net/profile?id=%7EJiahao_Huo2).
+You can find my work on [Google Scholar](https://scholar.google.com/citations?user=SJQZDGUAAAAJ), [GitHub](https://github.com/Z1zs), and [OpenReview](https://openreview.net/profile?id=%7EJiahao_Huo2).
 
 
 # 🔥 News
@@ -149,14 +149,16 @@ Additional publications:
 
 - *Feb 2026 – Jun 2026*, **Research Intern**, [Alibaba Cloud Computing](https://www.alibabacloud.com/).
   - **Focus:** compact visual-document representations and generative multimodal systems.
-  - **Supervisor:** [Mingdong Ou](https://scholar.google.com/scholar?q=Mingdong+Ou+Alibaba+Cloud).
+  - **Mentor:** [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en).
 
 - *Jun 2025 – Sep 2025*, **Machine Learning Engineer Intern**, [Alibaba Group](https://www.alibabagroup.com/) · Pixel Lab.
   - **Focus:** repository-scale code understanding, continued pre-training, and model merging.
+  - **Mentor:** [Chengfei Lv](https://openreview.net/profile?id=~chengfei_lv1).
 
 - *Apr 2025 – Jun 2025*, **Core Developer**, Institute for Advanced Algorithms Research · MemTensor.
   - **Focus:** open-source memory infrastructure for AI agents, including persistent memory, retrieval, and framework integration.
   - **Project:** [MemOS](https://github.com/MemTensor/MemOS).
+  - **Mentor:** [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2).
 
 - *Feb 2024 – Jul 2024*, **Research Intern**, Squirrel AI Learning.
   - **Focus:** semantic watermarking, multimodal machine unlearning, model interpretability, and educational agents.
