@@ -9,11 +9,8 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Selected Projects"
-    url: "/#-selected-projects"
-
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Selected Publications"
+    url: "/#-selected-publications"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"

@@ -56,9 +56,12 @@
         width: 100%;
         order: 2;
         img {
+            width: 100%;
+            aspect-ratio: 5 / 3;
             max-width: 400px;
+            background: #f7f7f7;
             box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     

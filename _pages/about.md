@@ -34,22 +34,87 @@ You can find my work on [Google Scholar](https://scholar.google.com/citations?us
 - **Agent memory:** persistent, retrievable, and multimodal memory for AI agents.
 - **Trustworthy AI:** text watermarking, machine unlearning, and model interpretability.
 
-# 🧩 Selected Projects
-- [MemoryOS](https://github.com/MemTensor/MemOS) — A memory operating system for AI agents, supporting persistent and multimodal context across major model and serving frameworks.
-- [CausalEmbed](https://arxiv.org/abs/2601.21262) ([Code](https://github.com/Z1zs/Causal-Embed)) — Autoregressive multi-vector generation for compact visual-document retrieval, with 30–155× fewer tokens and test-time scaling.
-- [PMark](https://arxiv.org/abs/2509.21057) ([Code](https://github.com/PMark-repo/PMark)) — A distortion-free semantic watermark with channel constraints and theoretical robustness guarantees.
-- [MathAgent](https://arxiv.org/abs/2503.18132) — A mixture of specialized agents for multimodal mathematical error detection, deployed to serve more than one million learners.
-
-# 📝 Publications
+# 📝 Selected Publications
 
 Selected publications are listed below; see [Google Scholar](https://scholar.google.com/citations?user=SJQZDGUAAAAJ) for the full list.
 
-- **SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness** — **Jiahao Huo**, Wenjie Qu, Yibo Yan, Kening Zheng, Jiaheng Zhang, Xuming Hu, Philip S. Yu, Mingxun Zhou. *Under review, 2026.* [Paper](https://arxiv.org/abs/2605.25796) · [Code](https://github.com/Z1zs/SAMark) · [Project](/SAMark/)
-- **PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints** — **Jiahao Huo**, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou. *ICLR 2026.* [Paper](https://arxiv.org/abs/2509.21057) · [Code](https://github.com/PMark-repo/PMark) · [Project](/PMark/)
-- **CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding** — **Jiahao Huo**, Yu Huang, Yibo Yan, Ye Pan, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu. *Under review, 2026.* [Paper](https://arxiv.org/abs/2601.21262) · [Code](https://github.com/Z1zs/Causal-Embed) · [Project](/CausalEmbed/)
-- **MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models** — **Jiahao Huo**, Yibo Yan, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu. *ACL 2025 Findings.* [Paper](https://arxiv.org/abs/2502.11051) · [Code](https://github.com/Z1zs/MMUnlearner) · [Project](/MMUnlearner/)
-- **MathAgent: Leveraging a Mixture-of-Math-Agent Framework for Real-World Multimodal Mathematical Error Detection** — Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wen. *ACL 2025 Industry Track, Oral.* [Paper](https://arxiv.org/abs/2503.18132)
-- **MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Models** — **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu. *EMNLP 2024 Main.* [Paper](https://arxiv.org/abs/2406.11193) · [Code](https://github.com/Z1zs/MMNeuron) · [Project](/MMNeuron/)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under review · 2026</div><img src='projects/SAMark/assets/overview.png' alt="SAMark overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness](/SAMark/)
+
+**Jiahao Huo**, Wenjie Qu, Yibo Yan, Kening Zheng, Jiaheng Zhang, Xuming Hu, Philip S. Yu, Mingxun Zhou
+
+- A self-anchored semantic watermarking framework designed to remain detectable under paragraph-level paraphrase attacks while preserving generation quality.
+
+[arXiv](https://arxiv.org/abs/2605.25796) · [Code](https://github.com/Z1zs/SAMark) · [Project](/SAMark/)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='projects/PMark/assets/framework.jpg' alt="PMark framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints](/PMark/)
+
+**Jiahao Huo**, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
+
+- A semantic watermarking method that encodes detectable structure through jointly constrained channels while preserving the language model's sampling distribution.
+
+[arXiv](https://arxiv.org/abs/2509.21057) · [Code](https://github.com/PMark-repo/PMark) · [Project](/PMark/)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under review · 2026</div><img src='projects/CausalEmbed/assets/framework.jpg' alt="CausalEmbed framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding](/CausalEmbed/)
+
+**Jiahao Huo**, Yu Huang, Yibo Yan, Ye Pan, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu
+
+- An autoregressive latent-space embedding model that represents visual documents with compact multi-vector sequences and supports controllable late-interaction retrieval.
+
+[arXiv](https://arxiv.org/abs/2601.21262) · [Code](https://github.com/Z1zs/Causal-Embed) · [Project](/CausalEmbed/)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='projects/MMUnlearner/assets/framework.jpg' alt="MMUnlearner framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models](/MMUnlearner/)
+
+**Jiahao Huo**, Yibo Yan, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu
+
+- A modality-aware unlearning framework that suppresses target visual concepts through saliency-guided, geometry-constrained updates while retaining textual knowledge and general visual capabilities.
+
+[arXiv](https://arxiv.org/abs/2502.11051) · [Code](https://github.com/Z1zs/MMUnlearner) · [Project](/MMUnlearner/)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Industry Track · Oral</div><img src='images/mathagent_acl25.png' alt="MathAgent paper overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MathAgent: Leveraging a Mixture-of-Math-Agent Framework for Real-World Multimodal Mathematical Error Detection](https://arxiv.org/abs/2503.18132)
+
+Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wen
+
+- A mixture-of-agents framework for multimodal mathematical error detection, combining image–text consistency validation, visual semantic interpretation, and integrative error analysis.
+
+[arXiv](https://arxiv.org/abs/2503.18132)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Main</div><img src='projects/MMNeuron/assets/framework.jpg' alt="MMNeuron framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Models](/MMNeuron/)
+
+**Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu
+
+- An interpretability framework that identifies domain-specific neurons, traces their contribution to multimodal predictions, and validates their causal effect through controlled intervention.
+
+[arXiv](https://arxiv.org/abs/2406.11193) · [Code](https://github.com/Z1zs/MMNeuron) · [Project](/MMNeuron/)
+
+</div></div>
 
 Additional publications:
 - Unveiling Language Routing Isolation in Multilingual MoE Models for Interpretable Subnetwork Adaptation - Kening Zheng, Wei-Chieh Huang, **Jiahao Huo**, Zhonghao Li, Henry Peng Zou, Yibo Yan, Xin Zou, Jungang Li, Junzhuo Li, Hanrong Zhang, Xuming Hu, Philip S. Yu. *EMNLP 2026 Findings.* [Paper](https://arxiv.org/abs/2604.03592)
