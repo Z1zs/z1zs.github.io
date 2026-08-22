@@ -52,13 +52,13 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 - **MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Models** — **Jiahao Huo**, Yibo Yan, Boren Hu, Yutao Yue, Xuming Hu. *EMNLP 2024 Main.* [Paper](https://arxiv.org/abs/2406.11193) · [Code](https://github.com/Z1zs/MMNeuron)
 
 Additional publications:
-
-- **ErrorRadar:** Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models via Error Detection. *ACL 2026 Findings.*
-- **Pierce the Mists, Greet the Sky:** Decipher Knowledge Overshadowing via Knowledge Circuit Analysis. *EMNLP 2025.* [Code](https://github.com/halfmorepiece/PhantomCircuit)
-- **EssayJudge:** A Multi-Granular Benchmark for Assessing Automated Essay Scoring Capabilities of MLLMs. *ACL 2025 Findings.*
-- **MemOS:** A Memory OS for AI System. *Technical report.* [Code](https://github.com/MemTensor/MemOS)
-- **Explainable and Interpretable Multimodal Large Language Models:** A Comprehensive Survey. *Preprint.*
-- **Memory in the Age of AI Agents.** *Under review.*
+- Unveiling Language Routing Isolation in Multilingual MoE Models for Interpretable Subnetwork Adaptation - Kening Zheng, Wei-Chieh Huang, **Jiahao Huo**, Zhonghao Li, Henry Peng Zou, Yibo Yan, Xin Zou, Jungang Li, Junzhuo Li, Hanrong Zhang, Xuming Hu, Philip S. Yu. *EMNLP 2026 Findings.* [Paper](https://arxiv.org/abs/2604.03592)
+- **ErrorRadar:** Benchmarking Complex Mathematical Reasoning of Multimodal Large Language Models via Error Detection — Yibo Yan, Shen Wang, **Jiahao Huo**, Hang Li, Boyan Li, Jiamin Su, Xiong Gao, Yi-Fan Zhang, Tianlong Xu, Zhendong Chu, Aoxiao Zhong, Kun Wang, Hui Xiong, Philip S. Yu, Xuming Hu, Qingsong Wen. *ACL 2026 Findings.* [Paper](https://arxiv.org/abs/2410.04509)
+- **Pierce the Mists, Greet the Sky:** Decipher Knowledge Overshadowing via Knowledge Circuit Analysis — Haoming Huang, Yibo Yan, **Jiahao Huo**, Xin Zou, Xinfeng Li, Kun Wang, Xuming Hu. *EMNLP 2025.* [Paper](https://arxiv.org/abs/2505.14406) · [Code](https://github.com/halfmorepiece/PhantomCircuit)
+- **EssayJudge:** A Multi-Granular Benchmark for Assessing Automated Essay Scoring Capabilities of MLLMs — Jiamin Su, Yibo Yan, Fangteng Fu, Han Zhang, Jingheng Ye, Xiang Liu, **Jiahao Huo**, Huiyu Zhou, Xuming Hu. *ACL 2025 Findings.* [Paper](https://arxiv.org/abs/2502.11916)
+- **MemOS:** A Memory OS for AI System — Zhiyu Li, Shichao Song, Chenyang Xi, Hanyu Wang, Chen Tang, Simin Niu, Ding Chen, Jiawei Yang, Chunyu Li, Qingchen Yu, Jihao Zhao, Yezhaohui Wang, Peng Liu, Zehao Lin, Pengyuan Wang, **Jiahao Huo**, Tianyi Chen, Kai Chen, Kehang Li, Zhen Tao, Huayi Lai, Hao Wu, Bo Tang, Zhenren Wang, Zhaoxin Fan, Ningyu Zhang, Linfeng Zhang, Junchi Yan, Mingchuan Yang, Tong Xu, Wei Xu, Huajun Chen, Haofen Wang, Hongkang Yang, Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong. *Technical report.* [Paper](https://arxiv.org/abs/2507.03724) · [Code](https://github.com/MemTensor/MemOS)
+- **Explainable and Interpretable Multimodal Large Language Models:** A Comprehensive Survey — Yunkai Dang, Kaichen Huang, **Jiahao Huo**, Yibo Yan, Sirui Huang, Dongrui Liu, Mengxi Gao, Jie Zhang, Chen Qian, Kun Wang, Yong Liu, Jing Shao, Hui Xiong, Xuming Hu. *Preprint.* [Paper](https://arxiv.org/abs/2412.02104)
+- **Memory in the Age of AI Agents** — Yuyang Hu, Shichun Liu, Yanwei Yue, Guibin Zhang, Boyang Liu, Fangyi Zhu, Jiahang Lin, Honglin Guo, Shihan Dou, Zhiheng Xi, Senjie Jin, Jiejun Tan, Yanbin Yin, Jiongnan Liu, Zeyu Zhang, Zhongxiang Sun, Yutao Zhu, Hao Sun, Boci Peng, Zhenrong Cheng, Xuanbo Fan, Jiaxin Guo, Xinlei Yu, Zhenhong Zhou, Zewen Hu, **Jiahao Huo**, Junhao Wang, Yuwei Niu, Yu Wang, Zhenfei Yin, Xiaobin Hu, Yue Liao, Qiankun Li, Kun Wang, Wangchunshu Zhou, Yixin Liu, Dawei Cheng, Qi Zhang, Tao Gui, Shirui Pan, Yan Zhang, Philip Torr, Zhicheng Dou, Ji-Rong Wen, Xuanjing Huang, Yu-Gang Jiang, Shuicheng Yan. *Preprint.* [Paper](https://arxiv.org/abs/2512.13564)
 
 # 📖 Educations
 - *2025 – 2026*, **Hong Kong University of Science and Technology (Guangzhou)** — MPhil in Artificial Intelligence.
@@ -70,7 +70,7 @@ Additional publications:
 - *Feb 2026 – Jun 2026*, **Alibaba Cloud Computing** — Research Intern with Mingdong Ou; compact visual-document representations and generative multimodal systems.
 - *Jun 2025 – Sep 2025*, **Alibaba Group · Pixel Lab** — Machine Learning Engineer Intern with Chengfei Lyu; repository-scale code understanding, continued pre-training, and model merging.
 - *Apr 2025 – Jun 2025*, **Institute for Advanced Algorithms Research & MemTensor** — Core Developer for [MemoryOS](https://github.com/MemTensor/MemOS); open-source memory infrastructure for AI agents and framework compatibility.
-- *2024 – 2026*, **Squirrel AI Learning** — Research Intern; semantic watermarking, multimodal unlearning and interpretation, and educational agents.
+- *Feb 2024 – July 2024*, **Squirrel AI Learning** — Research Intern; semantic watermarking, multimodal unlearning and interpretation, and educational agents.
 
 # 🧑‍⚖️ Academic Service
 - **Conference reviewer:** ARR (2025, 2026), ACL 2026, EMNLP 2026, SIGIR 2026, and NeurIPS 2026.
