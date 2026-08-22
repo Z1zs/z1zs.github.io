@@ -1,0 +1,131 @@
+---
+permalink: /MMNeuron/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MMNeuron: discovering neuron-level domain-specific interpretation in multimodal large language models.">
+  <link rel="canonical" href="https://z1zs.github.io/MMNeuron/">
+  <title>MMNeuron — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="mmneuron">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <a class="back-link" href="{{ root }}/">← Personal homepage</a>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Interpretability · EMNLP 2024 Main</p>
+          <h1>MM<em>Neuron</em></h1>
+          <p class="hero-lede">Discovering neuron-level, domain-specific mechanisms inside multimodal language models.</p>
+          <p class="authors"><strong>Jiahao Huo</strong>, <a href="https://stupidbuluchacha.github.io/">Yibo Yan</a>, Boren Hu, Yutao Yue, and <a href="https://xuminghu.github.io/">Xuming Hu</a></p>
+          <p class="affiliations">Hong Kong University of Science and Technology (Guangzhou)</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2406.11193" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
+            <a class="button" href="https://github.com/Z1zs/MMNeuron" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="button" href="#abstract">Read overview ↓</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
+        </div>
+        <div class="hero-art reveal">
+          <div class="media-frame">
+            <img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/illustration.jpg" alt="MMNeuron neuron-level interpretation illustration">
+          </div>
+          <p class="image-note">MMNeuron traces how multimodal information travels through domain-specific neurons in an MLLM.</p>
+        </div>
+      </section>
+
+      <section class="section" id="abstract">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The question</p>
+          <p class="section-intro">What makes a multimodal language model behave differently on documents, medicine, commerce, advertising, or remote sensing?</p>
+        </div>
+        <div class="abstract-grid reveal">
+          <p class="abstract-copy">MMNeuron studies domain-specific neurons in multimodal large language models and asks how they support specialized visual–language behavior. The work identifies where these neurons appear, analyzes the mechanism through which they affect predictions, and proposes a three-stage view of domain-specific processing. A logit-lens analysis connects neuron activation to the model’s output space, while controlled manipulation shows that domain-specific neurons are not merely correlated with performance: changing them can shift domain accuracy by up to 10% in the reported experiments.</p>
+          <div class="meta-list">
+            <div class="meta-item"><span>Venue</span><strong>EMNLP 2024 Main</strong></div>
+            <div class="meta-item"><span>Lens</span><strong>Neuron-level analysis</strong></div>
+            <div class="meta-item"><span>Domains</span><strong>Five visual domains</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">At a glance</p>
+            <h2>Interpret specialization from the inside.</h2>
+          </div>
+        </div>
+        <div class="highlight-grid reveal">
+          <article class="highlight-card"><span class="highlight-value">&lt;1%</span><p>Only a small fraction of neurons are identified as domain-specific in the reported analysis.</p></article>
+          <article class="highlight-card"><span class="highlight-value">5 domains</span><p>Specialized behavior is studied across document, medical, commerce, advertising, and remote-sensing examples.</p></article>
+          <article class="highlight-card"><span class="highlight-value">10%</span><p>Reported accuracy can change by up to this amount when domain-specific neurons are manipulated.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2>Find, explain, intervene.</h2>
+          </div>
+        </div>
+        <div class="idea-grid reveal">
+          <article class="idea-card"><h3>Discover domain neurons</h3><p>Locate neurons whose activation patterns distinguish one visual–language domain from the others.</p></article>
+          <article class="idea-card"><h3>Trace the mechanism</h3><p>Use a three-stage interpretation and logit-lens analysis to connect internal activation to domain-specific outputs.</p></article>
+          <article class="idea-card"><h3>Test causality</h3><p>Manipulate the discovered neurons and measure the change in domain performance to validate their functional role.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Visual results</p>
+            <h2>A map of multimodal specialization.</h2>
+          </div>
+          <p class="section-intro">From model anatomy to domain examples, the figures make an internal phenomenon concrete.</p>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/framework.jpg" alt="MMNeuron framework"><figcaption class="figure-caption"><strong>Neuron-level analysis framework</strong><span>The pipeline discovers domain-specific neurons, explains their mechanism, and validates their causal influence.</span></figcaption></figure>
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/pca.png" alt="MMNeuron neuron distribution PCA"><figcaption class="figure-caption"><strong>Domain separation</strong><span>Projection of neuron representations reveals structure shared by and specific to different visual domains.</span></figcaption></figure>
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/logit-frame.jpg" alt="MMNeuron logit lens analysis"><figcaption class="figure-caption"><strong>Logit-lens mechanism</strong><span>Intermediate neuron activity can be followed into the model’s domain-specific prediction space.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/example-doc.jpg" alt="MMNeuron document domain example"><figcaption class="figure-caption"><strong>Documents</strong><span>Domain-specific responses on document-style visual inputs.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/example-med.jpg" alt="MMNeuron medical domain example"><figcaption class="figure-caption"><strong>Medicine</strong><span>Specialized visual knowledge is reflected in medical examples.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/example-com.jpg" alt="MMNeuron commerce domain example"><figcaption class="figure-caption"><strong>Commerce</strong><span>Commerce-oriented visual reasoning activates a different internal subset.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/example-ad.jpg" alt="MMNeuron advertising domain example"><figcaption class="figure-caption"><strong>Advertising</strong><span>Domain cues in advertising images provide another test of specialization.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMNeuron/assets/example-rs.jpg" alt="MMNeuron remote sensing domain example"><figcaption class="figure-caption"><strong>Remote sensing</strong><span>Neuron specialization extends to remote-sensing visual inputs.</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use MMNeuron in your work.</h2></div></div>
+        <div class="citation-wrap reveal">
+          <button class="copy-citation" type="button" data-target="mmneuron-citation">Copy</button>
+          <pre class="citation" id="mmneuron-citation"><code>@inproceedings{huo2024mmneuron,
+  title     = {MMNeuron: Discovering Neuron-Level Domain-Specific Interpretation in Multimodal Large Language Model},
+  author    = {Huo, Jiahao and Yan, Yibo and Hu, Boren and Yue, Yutao and Hu, Xuming},
+  booktitle = {Proceedings of EMNLP},
+  year      = {2024}
+}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Project page for <a href="{{ root }}/">Jiahao Huo</a> · source and assets live in <code>projects/MMNeuron/</code> · inspired by <a href="https://tiger-ai-lab.github.io/VLM2Vec/" target="_blank" rel="noreferrer">academic project pages</a></footer>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+  <script src="{{ root }}/projects/assets/project.js" defer></script>
+</body>
+</html>

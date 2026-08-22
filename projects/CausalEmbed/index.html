@@ -1,0 +1,129 @@
+---
+permalink: /CausalEmbed/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CausalEmbed: autoregressive multi-vector generation in latent space for visual document embedding.">
+  <link rel="canonical" href="https://z1zs.github.io/CausalEmbed/">
+  <title>CausalEmbed — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="causalembed">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <a class="back-link" href="{{ root }}/">← Personal homepage</a>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Visual document retrieval · 2026</p>
+          <h1>Causal<em>Embed</em></h1>
+          <p class="hero-lede">Auto-regressive multi-vector generation in latent space for compact visual-document embeddings.</p>
+          <p class="authors"><strong>Jiahao Huo</strong>, Yu Huang, <a href="https://stupidbuluchacha.github.io/">Yibo Yan</a>, Ye Pan, Yi Cao, Mingdong Ou, <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a>, and <a href="https://xuminghu.github.io/">Xuming Hu</a></p>
+          <p class="affiliations">Hong Kong University of Science and Technology (Guangzhou) · Alibaba Cloud · University of Illinois Chicago</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2601.21262" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
+            <a class="button" href="https://github.com/Z1zs/Causal-Embed" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="button" href="#abstract">Read overview ↓</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
+        </div>
+        <div class="hero-art reveal">
+          <div class="media-frame">
+            <img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/framework.jpg" alt="CausalEmbed framework overview">
+          </div>
+          <p class="image-note">CausalEmbed generates a sequence of compact latent vectors and compares documents and queries through late interaction.</p>
+        </div>
+      </section>
+
+      <section class="section" id="abstract">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The problem</p>
+          <p class="section-intro">Visual documents contain rich layout and text signals, but retrieval systems often pay for that richness with long token sequences.</p>
+        </div>
+        <div class="abstract-grid reveal">
+          <p class="abstract-copy">CausalEmbed introduces autoregressive multi-vector generation directly in latent space. Given a visual document, a causal generator produces a compact sequence of embedding vectors that preserves complementary evidence for retrieval. The same representation supports late interaction with text queries, while test-time scaling lets the system trade additional latent computation for accuracy when needed. In the reported settings, CausalEmbed uses 30–155× fewer tokens than token-heavy visual document representations.</p>
+          <div class="meta-list">
+            <div class="meta-item"><span>Task</span><strong>Visual document retrieval</strong></div>
+            <div class="meta-item"><span>Representation</span><strong>Autoregressive multi-vector</strong></div>
+            <div class="meta-item"><span>Scaling</span><strong>Train and test time</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">At a glance</p>
+            <h2>More evidence, fewer tokens.</h2>
+          </div>
+        </div>
+        <div class="highlight-grid reveal">
+          <article class="highlight-card"><span class="highlight-value">30–155×</span><p>Fewer tokens than the compared token-level visual document representations.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Causal</span><p>Generate multiple complementary vectors sequentially in latent space.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Scalable</span><p>Use test-time generation length as a practical knob for the accuracy–efficiency tradeoff.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2>Generate the right granularity.</h2>
+          </div>
+        </div>
+        <div class="idea-grid reveal">
+          <article class="idea-card"><h3>Encode the page</h3><p>A visual document encoder turns layout, text, and image evidence into a shared latent representation.</p></article>
+          <article class="idea-card"><h3>Generate vectors causally</h3><p>A lightweight autoregressive generator emits a sequence of complementary vectors, conditioned on what has already been generated.</p></article>
+          <article class="idea-card"><h3>Interact late</h3><p>Multi-vector document embeddings preserve fine-grained matching with text queries without storing every visual token.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Visual results</p>
+            <h2>Compact representations that scale.</h2>
+          </div>
+          <p class="section-intro">These views highlight the architecture, retrieval quality, and the effect of scaling the latent sequence.</p>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/framework.jpg" alt="CausalEmbed architecture"><figcaption class="figure-caption"><strong>Architecture</strong><span>Visual pages are compressed into autoregressively generated vectors and matched with text queries through late interaction.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/main.jpg" alt="CausalEmbed main retrieval results"><figcaption class="figure-caption"><strong>Main retrieval results</strong><span>Compact multi-vector embeddings preserve retrieval quality across the reported benchmarks.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/success.jpg" alt="CausalEmbed qualitative success examples"><figcaption class="figure-caption"><strong>Qualitative retrieval</strong><span>Different generated vectors can capture complementary visual and textual evidence.</span></figcaption></figure>
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/scaling.jpg" alt="CausalEmbed scaling results"><figcaption class="figure-caption"><strong>Scaling the latent sequence</strong><span>Increasing the number of generated vectors provides a smooth test-time accuracy–compute tradeoff.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/app-scaling.jpg" alt="CausalEmbed application scaling results"><figcaption class="figure-caption"><strong>Application scaling</strong><span>The same scaling principle transfers to downstream visual-document retrieval use cases.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/CausalEmbed/assets/bubble.jpg" alt="CausalEmbed efficiency comparison"><figcaption class="figure-caption"><strong>Efficiency comparison</strong><span>CausalEmbed targets the quality–storage–latency balance needed for practical deployment.</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use CausalEmbed in your work.</h2></div></div>
+        <div class="citation-wrap reveal">
+          <button class="copy-citation" type="button" data-target="causalembed-citation">Copy</button>
+          <pre class="citation" id="causalembed-citation"><code>@article{huo2026causalembed,
+  title   = {CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding},
+  author  = {Huo, Jiahao and Huang, Yu and Yan, Yibo and Pan, Ye and Cao, Yi and Ou, Mingdong and Yu, Philip S. and Hu, Xuming},
+  journal = {arXiv preprint arXiv:2601.21262},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Project page for <a href="{{ root }}/">Jiahao Huo</a> · source and assets live in <code>projects/CausalEmbed/</code> · inspired by <a href="https://tiger-ai-lab.github.io/VLM2Vec/" target="_blank" rel="noreferrer">academic project pages</a></footer>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+  <script src="{{ root }}/projects/assets/project.js" defer></script>
+</body>
+</html>

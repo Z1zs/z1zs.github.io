@@ -1,0 +1,129 @@
+---
+permalink: /SAMark/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SAMark: a self-anchored semantic text watermarking framework with paragraph-level paraphrase robustness.">
+  <link rel="canonical" href="https://z1zs.github.io/SAMark/">
+  <title>SAMark — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="samark">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <a class="back-link" href="{{ root }}/">← Personal homepage</a>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Text watermarking · 2026</p>
+          <h1>SAM<em>ark</em></h1>
+          <p class="hero-lede">A self-anchored semantic watermark built to survive paragraph-level paraphrasing.</p>
+          <p class="authors"><strong>Jiahao Huo</strong>, <a href="https://quwenjie.github.io/">Wenjie Qu</a>, <a href="https://stupidbuluchacha.github.io/">Yibo Yan</a>, Kening Zheng, Jiaheng Zhang, <a href="https://xuminghu.github.io/">Xuming Hu</a>, <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a>, <a href="https://wuwuz.github.io/">Mingxun Zhou</a></p>
+          <p class="affiliations">Hong Kong University of Science and Technology (Guangzhou) · HKUST · University of Illinois Chicago</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2605.25796" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
+            <a class="button" href="https://github.com/Z1zs/SAMark" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="button" href="#abstract">Read overview ↓</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
+        </div>
+        <div class="hero-art reveal">
+          <div class="media-frame">
+            <img class="zoomable" src="{{ root }}/projects/SAMark/assets/framework.png" alt="SAMark framework overview">
+          </div>
+          <p class="image-note">SAMark combines self-anchored semantic regions, multi-channel scoring, and diversity-aware filtering.</p>
+        </div>
+      </section>
+
+      <section class="section" id="abstract">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The problem</p>
+          <p class="section-intro">Semantic watermarks should remain detectable after text is rewritten, without making the original writing feel watermarked.</p>
+        </div>
+        <div class="abstract-grid reveal">
+          <p class="abstract-copy">Existing semantic watermarking methods can depend on sentence order or a step-dependent partition of the vocabulary. SAMark removes that dependency with a self-anchored framework: every sentence derives a stable semantic region from its own context. Multi-channel hyperbolic scoring strengthens the watermark signal, while diversity-aware filtering protects generation quality. Across paragraph-level paraphrase attacks, SAMark reaches up to 90.2% TP@FP1% in the reported setting and improves the robustness–quality frontier over prior methods.</p>
+          <div class="meta-list">
+            <div class="meta-item"><span>Task</span><strong>Semantic text watermarking</strong></div>
+            <div class="meta-item"><span>Robustness target</span><strong>Paragraph paraphrase</strong></div>
+            <div class="meta-item"><span>Core idea</span><strong>Self-anchored regions</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">At a glance</p>
+            <h2>Robustness without a quality tax.</h2>
+          </div>
+        </div>
+        <div class="highlight-grid reveal">
+          <article class="highlight-card"><span class="highlight-value">90.2%</span><p>Reported TP@FP1% under representative paragraph-level paraphrase attacks.</p></article>
+          <article class="highlight-card"><span class="highlight-value">+30.6 pts</span><p>Average gain over the strongest baseline in the reported robustness comparison.</p></article>
+          <article class="highlight-card"><span class="highlight-value">2 signals</span><p>Multi-channel semantic scoring gives the detector more stable evidence to aggregate.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2>Anchor every sentence.</h2>
+          </div>
+        </div>
+        <div class="idea-grid reveal">
+          <article class="idea-card"><h3>Self-anchored seed</h3><p>Each sentence determines its own semantic anchor, so the watermark does not rely on a fragile global sentence order.</p></article>
+          <article class="idea-card"><h3>Hyperbolic signal</h3><p>Multi-channel hyperbolic scoring separates semantic regions while preserving a compact, meaningful signal for detection.</p></article>
+          <article class="idea-card"><h3>Quality-aware filtering</h3><p>Diversity-aware candidate filtering keeps the watermark robust while retaining natural and varied generations.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Visual results</p>
+            <h2>From geometry to attacks.</h2>
+          </div>
+          <p class="section-intro">The figures below show the design intuition, robustness frontier, and behavior under word-level attacks.</p>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/overview.png" alt="SAMark overview diagram"><figcaption class="figure-caption"><strong>Overview</strong><span>Self-anchored generation and paragraph-level detection form one consistent watermarking pipeline.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/pareto-frontier.png" alt="SAMark robustness quality Pareto frontier"><figcaption class="figure-caption"><strong>Robustness–quality frontier</strong><span>SAMark moves the practical frontier toward stronger detection with competitive generation quality.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/demo-trace.png" alt="SAMark detection trace"><figcaption class="figure-caption"><strong>Detection trace</strong><span>A token- and sentence-level view of the evidence accumulated by the detector.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/geometry.png" alt="SAMark geometric semantic landscape"><figcaption class="figure-caption"><strong>Semantic geometry</strong><span>Geometric separation makes the self-anchored signal interpretable and reusable across contexts.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/word-s-attack.png" alt="SAMark word substitution attack results"><figcaption class="figure-caption"><strong>Word substitution attacks</strong><span>Performance remains stable as local word substitutions perturb the watermarked text.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/SAMark/assets/word-d-attack.png" alt="SAMark word deletion attack results"><figcaption class="figure-caption"><strong>Word deletion attacks</strong><span>Deletion stress tests complement the paragraph-level paraphrase evaluation.</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use SAMark in your work.</h2></div></div>
+        <div class="citation-wrap reveal">
+          <button class="copy-citation" type="button" data-target="samark-citation">Copy</button>
+          <pre class="citation" id="samark-citation"><code>@article{huo2026samark,
+  title   = {SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness},
+  author  = {Huo, Jiahao and Qu, Wenjie and Yan, Yibo and Zheng, Kening and Zhang, Jiaheng and Hu, Xuming and Yu, Philip S. and Zhou, Mingxun},
+  journal = {arXiv preprint arXiv:2605.25796},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Project page for <a href="{{ root }}/">Jiahao Huo</a> · source and assets live in <code>projects/SAMark/</code> · inspired by <a href="https://tiger-ai-lab.github.io/VLM2Vec/" target="_blank" rel="noreferrer">academic project pages</a></footer>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+  <script src="{{ root }}/projects/assets/project.js" defer></script>
+</body>
+</html>

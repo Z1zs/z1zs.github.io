@@ -1,0 +1,129 @@
+---
+permalink: /MMUnlearner/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MMUnlearner: reformulating multimodal machine unlearning for multimodal large language models.">
+  <link rel="canonical" href="https://z1zs.github.io/MMUnlearner/">
+  <title>MMUnlearner — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="mmunlearner">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <a class="back-link" href="{{ root }}/">← Personal homepage</a>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Multimodal machine unlearning · ACL 2025 Findings</p>
+          <h1>MM<em>Unlearner</em></h1>
+          <p class="hero-lede">Reformulating multimodal machine unlearning around visual forgetting and textual retention.</p>
+          <p class="authors"><strong>Jiahao Huo</strong>, <a href="https://stupidbuluchacha.github.io/">Yibo Yan</a>, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, and <a href="https://xuminghu.github.io/">Xuming Hu</a></p>
+          <p class="affiliations">Hong Kong University of Science and Technology (Guangzhou)</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2502.11051" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
+            <a class="button" href="https://github.com/Z1zs/MMUnlearner" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="button" href="#abstract">Read overview ↓</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
+        </div>
+        <div class="hero-art reveal">
+          <div class="media-frame">
+            <img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/framework.jpg" alt="MMUnlearner framework overview">
+          </div>
+          <p class="image-note">MMUnlearner removes target visual concepts while preserving common perception and textual knowledge.</p>
+        </div>
+      </section>
+
+      <section class="section" id="abstract">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The problem</p>
+          <p class="section-intro">For a multimodal model, forgetting a visual concept should not erase the language knowledge and general capabilities that users still need.</p>
+        </div>
+        <div class="abstract-grid reveal">
+          <p class="abstract-copy">MMUnlearner reformulates multimodal machine unlearning for multimodal large language models. Instead of treating unlearning as a single-model weight deletion problem, it explicitly separates the target visual patterns to erase from the textual knowledge and common visual concepts to retain. Its geometry-constrained gradient ascent is guided by a weight saliency map, jointly restricting updates to the parameters most relevant to the target while protecting the remaining knowledge. Across the reported evaluations, MMUnlearner improves the balance between forgetting, general utility, and knowledge retention over standard baselines.</p>
+          <div class="meta-list">
+            <div class="meta-item"><span>Venue</span><strong>ACL 2025 Findings</strong></div>
+            <div class="meta-item"><span>Task</span><strong>Multimodal unlearning</strong></div>
+            <div class="meta-item"><span>Core idea</span><strong>Geometry + saliency</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">At a glance</p>
+            <h2>Forget the target. Keep the model useful.</h2>
+          </div>
+        </div>
+        <div class="highlight-grid reveal">
+          <article class="highlight-card"><span class="highlight-value">Visual</span><p>Erase visual patterns associated with the target entity from a multimodal model.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Textual</span><p>Retain textual knowledge and language behavior that should remain available after unlearning.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Targeted</span><p>Use geometry-constrained ascent and weight saliency to localize the update.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2>Unlearn with a protected boundary.</h2>
+          </div>
+        </div>
+        <div class="idea-grid reveal">
+          <article class="idea-card"><h3>Reframe the objective</h3><p>Define multimodal unlearning as target visual forgetting under explicit retention constraints for text and common concepts.</p></article>
+          <article class="idea-card"><h3>Find salient weights</h3><p>Estimate which parameters contribute most to the target concept and focus the update where it can do the least collateral damage.</p></article>
+          <article class="idea-card"><h3>Constrain the update</h3><p>Geometry-aware gradient ascent removes target evidence while regularizing the model toward preserved knowledge.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Visual results</p>
+            <h2>Forgetting is a balancing act.</h2>
+          </div>
+          <p class="section-intro">The method figures make the retained and forgotten regions explicit, while the experiments expose the tradeoffs.</p>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/framework.jpg" alt="MMUnlearner framework"><figcaption class="figure-caption"><strong>MMUnlearner framework</strong><span>Target visual concepts are forgotten while textual knowledge and common perception are kept intact.</span></figcaption></figure>
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/method.jpg" alt="MMUnlearner method details"><figcaption class="figure-caption"><strong>Geometry-constrained update</strong><span>Saliency and geometric constraints guide the unlearning direction and restrict harmful parameter drift.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/paradigm-comparison.jpg" alt="Comparison of multimodal unlearning paradigms"><figcaption class="figure-caption"><strong>Problem formulation</strong><span>Multimodal unlearning requires a different retention boundary from text-only forgetting.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/trade-off.jpg" alt="MMUnlearner forgetting retention tradeoff"><figcaption class="figure-caption"><strong>Forgetting–retention tradeoff</strong><span>MMUnlearner targets a stronger balance between removing the target and preserving useful capability.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/compare-heatmaps.jpg" alt="MMUnlearner heatmap comparison"><figcaption class="figure-caption"><strong>Concept-level comparison</strong><span>Heatmaps visualize how target and non-target concepts respond after unlearning.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/MMUnlearner/assets/forget-line.jpg" alt="MMUnlearner forgetting curve"><figcaption class="figure-caption"><strong>Forgetting curve</strong><span>The evolution of target forgetting makes the effect of the constrained update visible.</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Use MMUnlearner in your work.</h2></div></div>
+        <div class="citation-wrap reveal">
+          <button class="copy-citation" type="button" data-target="mmunlearner-citation">Copy</button>
+          <pre class="citation" id="mmunlearner-citation"><code>@article{huo2025mmunlearner,
+  title   = {MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models},
+  author  = {Huo, Jiahao and Yan, Yibo and Zheng, Xu and Lyu, Yuanhuiyi and Zou, Xin and Wei, Zhihua and Hu, Xuming},
+  journal = {Findings of the Association for Computational Linguistics: ACL 2025},
+  year    = {2025}
+}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Project page for <a href="{{ root }}/">Jiahao Huo</a> · source and assets live in <code>projects/MMUnlearner/</code> · inspired by <a href="https://tiger-ai-lab.github.io/VLM2Vec/" target="_blank" rel="noreferrer">academic project pages</a></footer>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+  <script src="{{ root }}/projects/assets/project.js" defer></script>
+</body>
+</html>

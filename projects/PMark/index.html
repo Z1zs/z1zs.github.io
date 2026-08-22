@@ -1,0 +1,129 @@
+---
+permalink: /PMark/
+layout: null
+---
+{% assign root = site.baseurl | default: "" %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PMark: robust and distortion-free semantic-level watermarking with channel constraints.">
+  <link rel="canonical" href="https://z1zs.github.io/PMark/">
+  <title>PMark — Jiahao Huo</title>
+  <link rel="stylesheet" href="{{ root }}/projects/assets/project.css">
+</head>
+<body class="project-page" data-theme="pmark">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="brand" href="{{ root }}/">JIAHAO HUO <span>/ PROJECTS</span></a>
+      <a class="back-link" href="{{ root }}/">← Personal homepage</a>
+    </div>
+  </header>
+
+  <main class="project-main">
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Semantic watermarking · ICLR 2026</p>
+          <h1><em>P</em>Mark</h1>
+          <p class="hero-lede">Robust and distortion-free semantic-level watermarking through channel constraints.</p>
+          <p class="authors"><strong>Jiahao Huo</strong>, Shuliang Liu, Bin Wang, Junyan Zhang, <a href="https://stupidbuluchacha.github.io/">Yibo Yan</a>, Aiwei Liu, <a href="https://xuminghu.github.io/">Xuming Hu</a>, and <a href="https://wuwuz.github.io/">Mingxun Zhou</a></p>
+          <p class="affiliations">Hong Kong University of Science and Technology (Guangzhou) · HKUST</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://arxiv.org/abs/2509.21057" target="_blank" rel="noreferrer">Paper / arXiv ↗</a>
+            <a class="button" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer">Code ↗</a>
+            <a class="button" href="#abstract">Read overview ↓</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
+        </div>
+        <div class="hero-art reveal">
+          <div class="media-frame">
+            <img class="zoomable" src="{{ root }}/projects/PMark/assets/framework.jpg" alt="PMark framework overview">
+          </div>
+          <p class="image-note">PMark estimates semantic channels and constrains their joint sampling process to keep the watermark robust and distortion-free.</p>
+        </div>
+      </section>
+
+      <section class="section" id="abstract">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The problem</p>
+          <p class="section-intro">A semantic watermark should encode a reliable signal while leaving the text distribution—and therefore the writing quality—undisturbed.</p>
+        </div>
+        <div class="abstract-grid reveal">
+          <p class="abstract-copy">PMark treats semantic watermarking as a constrained channel-sampling problem. It generates candidate tokens, estimates multiple semantic channel distributions, and partitions them into watermark-compatible regions. The channel constraints are enforced jointly during sampling and context updating, allowing PMark to maintain a detectable signal without the token-level distortion introduced by conventional biased decoding. The resulting design provides a clean route to robust, distortion-free semantic watermarking.</p>
+          <div class="meta-list">
+            <div class="meta-item"><span>Venue</span><strong>ICLR 2026</strong></div>
+            <div class="meta-item"><span>Task</span><strong>Semantic watermarking</strong></div>
+            <div class="meta-item"><span>Design lens</span><strong>Channel constraints</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">At a glance</p>
+            <h2>Encode meaning, preserve distribution.</h2>
+          </div>
+        </div>
+        <div class="highlight-grid reveal">
+          <article class="highlight-card"><span class="highlight-value">Multi-channel</span><p>Semantic signals are estimated across channels rather than forced into one brittle partition.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Distortion-free</span><p>Constrained sampling preserves the model’s intended token distribution during generation.</p></article>
+          <article class="highlight-card"><span class="highlight-value">Robust</span><p>Channel-level structure gives the watermark a stable signal under common text transformations.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">How it works</p>
+            <h2>Three channels, one constraint.</h2>
+          </div>
+        </div>
+        <div class="idea-grid reveal">
+          <article class="idea-card"><h3>Candidate generation</h3><p>Construct a candidate set that reflects the language model’s natural next-token preferences.</p></article>
+          <article class="idea-card"><h3>Distribution estimation</h3><p>Estimate semantic channel distributions and identify the regions that can carry a watermark signal.</p></article>
+          <article class="idea-card"><h3>Constrained sampling</h3><p>Coordinate partitioning, multi-channel sampling, and context updating without injecting token-level bias.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Visual results</p>
+            <h2>Channel constraints in action.</h2>
+          </div>
+          <p class="section-intro">The method and analysis figures connect the channel view to robustness and quality comparisons.</p>
+        </div>
+        <div class="figure-grid">
+          <figure class="figure-card wide reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/framework.jpg" alt="PMark four-stage framework"><figcaption class="figure-caption"><strong>Four-stage watermarking pipeline</strong><span>Candidate generation, distribution estimation, green–red partitioning, and distortion-free sampling work as one constrained process.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/hyper.jpg" alt="PMark semantic channel analysis"><figcaption class="figure-caption"><strong>Semantic channel structure</strong><span>Channel-level geometry provides the foundation for a stable watermark signal.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/hyper-opt.jpg" alt="PMark optimized channel analysis"><figcaption class="figure-caption"><strong>Optimized channel constraints</strong><span>The optimized design improves the balance between semantic separation and generation behavior.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble.jpg" alt="PMark main comparison"><figcaption class="figure-caption"><strong>Main comparison</strong><span>PMark compares favorably across watermark detectability and text quality.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble-opt-c4.jpg" alt="PMark C4 evaluation"><figcaption class="figure-caption"><strong>C4 evaluation</strong><span>Channel constraints remain effective across the reported corpus and configuration.</span></figcaption></figure>
+          <figure class="figure-card reveal"><img class="zoomable" src="{{ root }}/projects/PMark/assets/bubble-opt-bs.jpg" alt="PMark book summary evaluation"><figcaption class="figure-caption"><strong>BookSum evaluation</strong><span>Robustness and quality trends persist on a different text domain.</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="citation">
+        <div class="section-heading reveal"><div><p class="section-kicker">Citation</p><h2>Build on PMark.</h2></div></div>
+        <div class="citation-wrap reveal">
+          <button class="copy-citation" type="button" data-target="pmark-citation">Copy</button>
+          <pre class="citation" id="pmark-citation"><code>@article{huo2025pmark,
+  title   = {PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints},
+  author  = {Huo, Jiahao and Liu, Shuliang and Wang, Bin and Zhang, Junyan and Yan, Yibo and Liu, Aiwei and Hu, Xuming and Zhou, Mingxun},
+  journal = {arXiv preprint arXiv:2509.21057},
+  year    = {2025}
+}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-shell">Project page for <a href="{{ root }}/">Jiahao Huo</a> · source and assets live in <code>projects/PMark/</code> · inspired by <a href="https://tiger-ai-lab.github.io/VLM2Vec/" target="_blank" rel="noreferrer">academic project pages</a></footer>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></div>
+  <script src="{{ root }}/projects/assets/project.js" defer></script>
+</body>
+</html>
