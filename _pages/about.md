@@ -103,7 +103,7 @@ Yibo Yan, Shen Wang, **Jiahao Huo**, Philip S. Yu, Xuming Hu, Qingsong Wen
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical report · 2025</div><img src='images/memos.svg' alt="MemOS logo" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical report · 2025</div><img src='images/memos.png' alt="MemOS 2.0 Stardust overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724)
