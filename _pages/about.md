@@ -147,11 +147,11 @@ Additional publications:
   - **Focus:** autoregressive multimodal embeddings, representation learning, and on-policy (self-)distillation.
   - **Supervisor:** [Prof. Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/).
 
-- *Feb 2026 – Jun 2026*, **Research Intern**, [Alibaba Cloud Computing](https://www.alibabacloud.com/).
+- *Feb 2026 – Jun 2026*, **Research Intern**, [Alibaba Cloud Computing](https://www.alibabacloud.com/) · [Vectora AI](https://huggingface.co/Vectora).
   - **Focus:** compact visual-document representations and generative multimodal systems.
   - **Mentor:** [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en).
 
-- *Jun 2025 – Sep 2025*, **Machine Learning Engineer Intern**, [Alibaba Group](https://www.alibabagroup.com/) · Pixel Lab.
+- *Jun 2025 – Sep 2025*, **Machine Learning Engineer Intern**, [Alibaba Group](https://www.alibabagroup.com/) · [Pixel Lab](https://github.com/alibaba/Taobao3D).
   - **Focus:** repository-scale code understanding, continued pre-training, and model merging.
   - **Mentor:** [Chengfei Lv](https://openreview.net/profile?id=~chengfei_lv1).
 
