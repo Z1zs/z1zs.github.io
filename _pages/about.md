@@ -155,12 +155,12 @@ Additional publications:
   - **Focus:** repository-scale code understanding, continued pre-training, and model merging.
   - **Mentor:** [Chengfei Lv](https://openreview.net/profile?id=~chengfei_lv1).
 
-- *Apr 2025 – Jun 2025*, **Core Developer**, Institute for Advanced Algorithms Research · MemTensor.
+- *Apr 2025 – Jun 2025*, **Core Developer**, [Institute for Advanced Algorithms Research](https://www.iaar.ac.cn/) · [MemTensor](https://www.memtensor.cn/).
   - **Focus:** open-source memory infrastructure for AI agents, including persistent memory, retrieval, and framework integration.
   - **Project:** [MemOS](https://github.com/MemTensor/MemOS).
   - **Mentor:** [Zhiyu Li](https://openreview.net/profile?id=~Zhiyu_li2).
 
-- *Feb 2024 – Jul 2024*, **Research Intern**, Squirrel AI Learning.
+- *Feb 2024 – Jul 2024*, **Research Intern**, [Squirrel AI Learning](https://squirrelai.com/).
   - **Focus:** semantic watermarking, multimodal machine unlearning, model interpretability, and educational agents.
 
 # 🧑‍⚖️ Academic Service
