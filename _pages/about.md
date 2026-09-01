@@ -164,5 +164,5 @@ Additional publications:
   - **Focus:** semantic watermarking, multimodal machine unlearning, model interpretability, and educational agents.
 
 # 🧑‍⚖️ Academic Service
-- **Conference reviewer:** ARR (2025, 2026), ACL 2026, EMNLP 2026, SIGIR 2026, and NeurIPS 2026.
-- **Journal reviewer:** IEEE *Transactions on Neural Networks and Learning Systems* (TNNLS).
+- **Conference reviewer:** ARR (ACL/EMNLP 2026), AAAI 2025, SIGIR 2026, NeurIPS 2026, ICLR 2027.
+- **Journal reviewer:** IEEE TNNLS.
