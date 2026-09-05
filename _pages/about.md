@@ -51,19 +51,6 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='projects/PMark/assets/framework.jpg' alt="PMark framework" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints](/PMark/)
-
-**Jiahao Huo**, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
-
-- A semantic watermarking method that encodes detectable structure through jointly constrained channels while preserving the language model's sampling distribution.
-
-[Paper](https://arxiv.org/abs/2509.21057) <span class="show_paper_citations" data="SJQZDGUAAAAJ:roLk4NBRz8UC" data-fallback="15" aria-live="polite">| Citations: 15</span> · [Code](https://github.com/PMark-repo/PMark) <a class="github-stars" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/PMark-repo/PMark?style=flat-square&amp;label=stars" alt="GitHub stars for PMark"></a> · [Project](/PMark/)
-
-</div></div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under review · 2026</div><img src='projects/CausalEmbed/assets/framework.jpg' alt="CausalEmbed framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -74,6 +61,19 @@ Selected publications are listed below; see [Google Scholar](https://scholar.goo
 - An autoregressive latent-space embedding model that represents visual documents with compact multi-vector sequences and supports controllable late-interaction retrieval.
 
 [Paper](https://arxiv.org/abs/2601.21262) <span class="show_paper_citations" data="SJQZDGUAAAAJ:8k81kl-MbHgC" data-fallback="1" aria-live="polite">| Citations: 1</span> · [Code](https://github.com/Z1zs/Causal-Embed) <a class="github-stars" href="https://github.com/Z1zs/Causal-Embed" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/Z1zs/Causal-Embed?style=flat-square&amp;label=stars" alt="GitHub stars for CausalEmbed"></a> · [Models](https://huggingface.co/collections/Z1zs/causalembed) · [Project](/CausalEmbed/)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='projects/PMark/assets/framework.jpg' alt="PMark framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PMark: Towards Robust and Distortion-Free Semantic-Level Watermarking with Channel Constraints](/PMark/)
+
+**Jiahao Huo**, Shuliang Liu, Bin Wang, Junyan Zhang, Yibo Yan, Aiwei Liu, Xuming Hu, Mingxun Zhou
+
+- A semantic watermarking method that encodes detectable structure through jointly constrained channels while preserving the language model's sampling distribution.
+
+[Paper](https://arxiv.org/abs/2509.21057) <span class="show_paper_citations" data="SJQZDGUAAAAJ:roLk4NBRz8UC" data-fallback="15" aria-live="polite">| Citations: 15</span> · [Code](https://github.com/PMark-repo/PMark) <a class="github-stars" href="https://github.com/PMark-repo/PMark" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/PMark-repo/PMark?style=flat-square&amp;label=stars" alt="GitHub stars for PMark"></a> · [Project](/PMark/)
 
 </div></div>
 
