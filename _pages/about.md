@@ -143,9 +143,13 @@ Additional publications:
 - *2021 – 2025*, **B.S. in Data Science**, [Tongji University](https://en.tongji.edu.cn/), Shanghai, China — GPA: 91.65/100.
 
 # 💼 Work Experience
-- *Feb 2026 – Jun 2026*, **Visiting Student**, [University of Illinois Chicago](https://www.uic.edu/), Chicago, United States.
+- *Feb 2026 – Jun 2026*, **Visiting Student**, [University of Illinois Chicago](https://www.uic.edu/) & Carnegie Mellon University(https://www.cmu.edu/), United States.
   - **Focus:** autoregressive multimodal embeddings, representation learning, and on-policy (self-)distillation.
-  - **Supervisor:** [Prof. Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/).
+  - **Supervisor:** [Prof. Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/) and [Prof. Yiming Yang](https://www.cs.cmu.edu/~yiming/).
+
+- *Feb 2026 – Jun 2026*, **Research Intern**, [Alibaba Cloud Computing](https://www.alibabacloud.com/) · [Vectora AI](https://huggingface.co/Vectora).
+  - **Focus:** compact visual-document representations and generative multimodal systems.
+  - **Mentor:** [Mingdong Ou](https://scholar.google.com/citations?user=t7IGye8AAAAJ&hl=en).
 
 - *Jun 2025 – Sep 2025*, **Machine Learning Engineer Intern**, [Alibaba Group](https://www.alibabagroup.com/) · [Pixel Lab](https://github.com/alibaba/Taobao3D).
   - **Focus:** repository-scale code understanding, continued pre-training, and model merging.
@@ -160,5 +164,5 @@ Additional publications:
   - **Focus:** semantic watermarking, multimodal machine unlearning, model interpretability, and educational agents.
 
 # 🧑‍⚖️ Academic Service
-- **Conference reviewer:** ARR (ACL/EMNLP 2026), AAAI 2025, SIGIR 2026, NeurIPS 2026, ICLR 2027.
+- **Conference reviewer:** ARR (ACL/EMNLP 2026), AAAI 2025, SIGIR 2026, CIKM 2026, NeurIPS 2026, ICLR 2027.
 - **Journal reviewer:** IEEE TNNLS.
