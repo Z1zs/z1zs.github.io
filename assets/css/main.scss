@@ -136,3 +136,33 @@ h1:before, .anchor:before {
         box-shadow: none;
     }
 }
+
+.page__content a.paper-link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 20px;
+    padding: 0 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    background: #fff;
+    font-size: 11px;
+    line-height: 18px;
+    text-decoration: none;
+    vertical-align: middle;
+
+    i {
+        font-size: 12px;
+    }
+
+    &.blog-badge i {
+        color: #07c160;
+    }
+
+    &:hover {
+        color: #111;
+        background: #f7f7f7;
+        text-decoration: none;
+    }
+}
