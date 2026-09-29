@@ -142,7 +142,7 @@ Additional publications:
 - *2024 – 2025*, **Exchange Student**, [Technical University of Munich](https://www.tum.de/), School of Computation, Information and Technology, Munich, Germany.
 - *2021 – 2025*, **B.S. in Data Science**, [Tongji University](https://en.tongji.edu.cn/), Shanghai, China — GPA: 91.65/100.
 
-# 💼 Work Experience
+# 💼 Work Experience & Collaborations
 - *Feb 2026 – Jun 2026*, **Visiting Student**, [University of Illinois Chicago](https://www.uic.edu/) & Carnegie Mellon University(https://www.cmu.edu/), United States.
   - **Focus:** autoregressive multimodal embeddings, representation learning, and on-policy (self-)distillation.
   - **Supervisor:** [Prof. Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/) and [Prof. Yiming Yang](https://www.cs.cmu.edu/~yiming/).
@@ -162,6 +162,7 @@ Additional publications:
 
 - *Feb 2024 – Jul 2024*, **Research Intern**, [Squirrel AI Learning](https://squirrelai.com/).
   - **Focus:** semantic watermarking, multimodal machine unlearning, model interpretability, and educational agents.
+  - **Mentor:** [Qingsong Wen](https://sites.google.com/site/qingsongwen8/).
 
 # 🧑‍⚖️ Academic Service
 - **Conference reviewer:** ARR (ACL/EMNLP 2026), AAAI 2025, SIGIR 2026, CIKM 2026, NeurIPS 2026, ICLR 2027.
