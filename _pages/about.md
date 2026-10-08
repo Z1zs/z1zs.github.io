@@ -143,7 +143,7 @@ Additional publications:
 - *2021 – 2025*, **B.S. in Data Science**, [Tongji University](https://en.tongji.edu.cn/), Shanghai, China — GPA: 91.65/100.
 
 # 💼 Work Experience & Collaborations
-- *Feb 2026 – Jun 2026*, **Visiting Student**, [University of Illinois Chicago](https://www.uic.edu/) & Carnegie Mellon University(https://www.cmu.edu/), United States.
+- *Feb 2026 – Jun 2026*, **Visiting Student**, [University of Illinois Chicago](https://www.uic.edu/) & [Carnegie Mellon University](https://www.cmu.edu/), United States.
   - **Focus:** autoregressive multimodal embeddings, representation learning, and on-policy (self-)distillation.
   - **Supervisor:** [Prof. Philip S. Yu](https://cs.uic.edu/profiles/philip-yu/) and [Prof. Yiming Yang](https://www.cs.cmu.edu/~yiming/).
 
